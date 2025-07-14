@@ -1,0 +1,78 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"0": "block/azure_bluet_3d",
+		"particle": "block/azure_bluet_3d"
+	},
+	"elements": [
+		{
+			"from": [0.5, -1, 8],
+			"to": [15.5, 8, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -2, 8]},
+			"faces": {
+				"north": {"uv": [0, 7, 13, 16], "texture": "#0"},
+				"south": {"uv": [0, 7, 13, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0.5, -1, 8],
+			"to": [15.5, 8, 8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, -2, 8]},
+			"faces": {
+				"north": {"uv": [0, 7, 13, 16], "texture": "#0"},
+				"south": {"uv": [0, 7, 13, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.5, 7, 9],
+			"to": [12.5, 7, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 7, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 9, 7], "texture": "#0"},
+				"down": {"uv": [0, 7, 9, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 7, 3.5],
+			"to": [7, 7, 12.5],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 7, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 9, 7], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 7, 9, 0], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.5, 7, 0],
+			"to": [12.5, 7, 7],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 7, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 9, 7], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 7, 9, 0], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 7, 3.5],
+			"to": [16, 7, 12.5],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 7, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 9, 7], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 7, 9, 0], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 7, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

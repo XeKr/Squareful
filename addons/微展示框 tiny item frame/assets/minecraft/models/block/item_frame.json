@@ -1,0 +1,23 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/template_item_frame",
+	"textures": {
+        "particle": "#back",
+		"back": "block/item_frame"
+	},
+	"elements": [
+		{
+			"from": [7.1, 7.1, 15.1],
+			"to": [8.9, 8.9, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 7, 15]},
+			"faces": {
+				"north": {"uv": [7, 7, 9, 9], "texture": "#back"},
+				"east": {"uv": [7, 7, 8, 9], "texture": "#back"},
+				"south": {"uv": [9, 7, 7, 9], "texture": "#back"},
+				"west": {"uv": [8, 7, 9, 9], "texture": "#back"},
+				"up": {"uv": [9, 7, 7, 8], "texture": "#back"},
+				"down": {"uv": [9, 8, 7, 9], "texture": "#back"}
+			}
+		}
+	]
+}

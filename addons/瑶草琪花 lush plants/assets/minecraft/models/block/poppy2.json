@@ -1,0 +1,8 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/dandelion2",
+	"textures": {
+		"0": "block/poppy_3d",
+		"particle": "block/poppy_3d"
+	}
+}

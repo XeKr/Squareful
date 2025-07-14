@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/log_3d2",
+  "textures": {
+    "end": "minecraft:block/acacia_log_top",
+    "side": "minecraft:block/acacia_log"
+  }
+}

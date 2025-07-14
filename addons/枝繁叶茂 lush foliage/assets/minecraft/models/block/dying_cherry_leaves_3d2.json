@@ -1,0 +1,7 @@
+{
+	"parent": "block/leaves_3d2",
+	"textures": {
+		"out": "block/dying_cherry_leaves_3d",
+		"in": "block/dying_cherry_leaves_3d2"
+	}
+}

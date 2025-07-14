@@ -1,0 +1,134 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/vine",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/vine",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": [
+	  {"model": "minecraft:block/vine_wall", "weight": 80},
+	  {"model": "minecraft:block/vine_wall2", "weight": 4},
+	  {"model": "minecraft:block/vine_wall3", "weight": 4},
+	  {"model": "minecraft:block/vine_wall4", "weight": 4},
+	  {"model": "minecraft:block/vine_wall5", "weight": 4},
+	  {"model": "minecraft:block/vine_wall6", "weight": 4}
+	  ]
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/vine_wall"
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": [
+	  {"model": "minecraft:block/vine_wall","y": 270,"uvlock": true, "weight": 80},
+	  {"model": "minecraft:block/vine_wall2","y": 270,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall3","y": 270,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall4","y": 270,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall5","y": 270,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall6","y": 270,"uvlock": true, "weight": 4}
+	  ]
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/vine_wall",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": [
+	  {"model": "minecraft:block/vine_wall","y": 180,"uvlock": true, "weight": 80},
+	  {"model": "minecraft:block/vine_wall2","y": 180,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall3","y": 180,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall4","y": 180,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall5","y": 180,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall6","y": 180,"uvlock": true, "weight": 4}
+	  ]
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/vine_wall",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": [
+	  {"model": "minecraft:block/vine_wall","y": 90,"uvlock": true, "weight": 80},
+	  {"model": "minecraft:block/vine_wall2","y": 90,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall3","y": 90,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall4","y": 90,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall5","y": 90,"uvlock": true, "weight": 4},
+	  {"model": "minecraft:block/vine_wall6","y": 90,"uvlock": true, "weight": 4}
+	  ]
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/vine_wall",
+        "y": 90,
+        "uvlock": true
+      }
+    }
+  ]
+}

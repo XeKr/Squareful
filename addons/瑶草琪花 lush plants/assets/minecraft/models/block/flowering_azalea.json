@@ -1,0 +1,11 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/azalea",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/azalea_3d",
+		"1": "block/azalea_3d3",
+		"particle": "block/azalea_3d"
+	}
+}

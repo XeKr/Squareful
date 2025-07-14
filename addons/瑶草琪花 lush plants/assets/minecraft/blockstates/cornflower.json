@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/cornflower1"},
+	{"model": "minecraft:block/cornflower1", "y": 90},
+	{"model": "minecraft:block/cornflower1", "y": 180},
+	{"model": "minecraft:block/cornflower1", "y": 270},
+	{"model": "minecraft:block/cornflower2"},
+	{"model": "minecraft:block/cornflower2", "y": 90},
+	{"model": "minecraft:block/cornflower2", "y": 180},
+	{"model": "minecraft:block/cornflower2", "y": 270},
+	{"model": "minecraft:block/cornflower3", "weight": 2},
+	{"model": "minecraft:block/cornflower3", "y": 90, "weight": 2},
+	{"model": "minecraft:block/cornflower3", "y": 180, "weight": 2},
+	{"model": "minecraft:block/cornflower3", "y": 270, "weight": 2}
+  ]
+  }
+}

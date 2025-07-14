@@ -1,0 +1,7 @@
+{
+	"parent": "block/leaves_3d2",
+	"textures": {
+		"out": "block/dark_oak_leaves_3d",
+		"in": "block/dark_oak_leaves_3d2"
+	}
+}

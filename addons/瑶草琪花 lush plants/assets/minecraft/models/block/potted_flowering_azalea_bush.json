@@ -1,0 +1,10 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/potted_azalea_bush",
+	"textures": {
+		"1": "block/pot_3d9",
+		"2": "block/azalea_pot",
+		"3": "block/azalea_pot3",
+		"particle": "block/pot_3d9"
+	}
+}

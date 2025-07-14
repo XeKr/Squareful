@@ -1,0 +1,59 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"4": "block/grass_block_3d",
+		"particle": "block/dirt",
+		"bottom": "block/dirt",
+		"top": "block/grass_block_top",
+		"side": "block/grass_block_side",
+		"overlay": "block/grass_block_side_overlay"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "east", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "south", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "west", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5, 15.8, 2],
+			"to": [7, 16.8, 12],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [6, 15.8, 7]},
+			"faces": {
+				"north": {"uv": [12, 0, 13, 2], "rotation": 270, "texture": "#4", "cullface": "up"},
+				"east": {"uv": [13, 0, 14, 10], "rotation": 90, "texture": "#4", "cullface": "up"},
+				"south": {"uv": [12, 9, 14, 10], "texture": "#4", "cullface": "up"},
+				"west": {"uv": [12, 0, 13, 10], "rotation": 90, "texture": "#4", "cullface": "up"},
+				"up": {"uv": [14, 0, 16, 10], "texture": "#4", "cullface": "up"}
+			}
+		},
+		{
+			"from": [7, 16.4, 6],
+			"to": [9, 16.4, 8],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7, 16.4, 6]},
+			"faces": {
+				"up": {"uv": [10, 13, 12, 15], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [9, 11, 11, 13], "texture": "#4", "cullface": "up"}
+			}
+		}
+	]
+}

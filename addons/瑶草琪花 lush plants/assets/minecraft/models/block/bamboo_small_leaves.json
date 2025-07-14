@@ -1,0 +1,76 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/bamboo_3d3",
+		"texture": "block/bamboo_3d3"
+	},
+	"elements": [
+		{
+			"from": [0.8, 0, 8],
+			"to": [15.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-3, 11, 5],
+			"to": [13, 11, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 11, 8]},
+			"faces": {
+				"up": {"uv": [13, 16, 4, 0], "rotation": 270, "texture": "#texture"},
+				"down": {"uv": [13, 0, 4, 16], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"from": [2, 11, -3],
+			"to": [11, 11, 13],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 11, 8]},
+			"faces": {
+				"up": {"uv": [13, 16, 4, 0], "texture": "#texture"},
+				"down": {"uv": [13, 0, 4, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [3, 11, 2],
+			"to": [19, 11, 11],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 11, 8]},
+			"faces": {
+				"up": {"uv": [13, 16, 4, 0], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [13, 0, 4, 16], "rotation": 270, "texture": "#texture"}
+			}
+		},
+		{
+			"from": [5, 11, 3],
+			"to": [14, 11, 19],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 11, 8]},
+			"faces": {
+				"up": {"uv": [13, 16, 4, 0], "rotation": 180, "texture": "#texture"},
+				"down": {"uv": [13, 0, 4, 16], "rotation": 180, "texture": "#texture"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		{
+			"name": "group",
+			"origin": [8, 14, 8],
+			"color": 0,
+			"children": [2, 3, 4, 5]
+		}
+	]
+}

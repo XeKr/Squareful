@@ -1,0 +1,8 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/dandelion3",
+	"textures": {
+		"0": "block/oxeye_daisy_3d",
+		"particle": "block/oxeye_daisy_3d"
+	}
+}

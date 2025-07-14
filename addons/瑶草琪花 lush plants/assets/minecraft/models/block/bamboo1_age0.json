@@ -1,0 +1,46 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"textures": {
+		"0": "block/bamboo_3d",
+		"1": "block/bamboo_3d2",
+		"particle": "block/bamboo_3d"
+	},
+	"elements": [
+		{
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 16, 9.5],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [0, 4, 3, 7], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6.2, 5.7, 6.2],
+			"to": [9.8, 6.6, 9.8],
+			"faces": {
+				"north": {"uv": [3, 3, 7, 4], "texture": "#1"},
+				"east": {"uv": [7, 3, 3, 4], "texture": "#1"},
+				"south": {"uv": [3, 3, 7, 4], "texture": "#1"},
+				"west": {"uv": [7, 3, 3, 4], "texture": "#1"},
+				"up": {"uv": [3, 0, 7, 4], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [3, 4, 7, 8], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6.2, 4.4, 6.2],
+			"to": [9.8, 5.3, 9.8],
+			"faces": {
+				"north": {"uv": [3, 3, 7, 4], "texture": "#1"},
+				"east": {"uv": [7, 3, 3, 4], "texture": "#1"},
+				"south": {"uv": [3, 3, 7, 4], "texture": "#1"},
+				"west": {"uv": [7, 3, 3, 4], "texture": "#1"},
+				"up": {"uv": [3, 0, 7, 4], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [3, 4, 7, 8], "texture": "#1", "cullface": "down"}
+			}
+		}
+	]
+}

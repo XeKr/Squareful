@@ -1,0 +1,61 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/cross",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/sunflower_3d",
+		"particle": "block/sunflower_3d"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 7],
+			"to": [8, 16, 9],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 8, 1, 16], "texture": "#0"},
+				"west": {"uv": [0, 8, 1, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 0, 8],
+			"to": [9, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 1, 16], "texture": "#0"},
+				"south": {"uv": [0, 8, 1, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.5, 6, -1],
+			"to": [11.5, 6, 8],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 6, 8]},
+			"faces": {
+				"up": {"uv": [1, 11.5, 4.5, 16], "texture": "#0"},
+				"down": {"uv": [1, 16, 4.5, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 2, 4.5],
+			"to": [17, 2, 11.5],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 2, 8]},
+			"faces": {
+				"up": {"uv": [1, 11.5, 4.5, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [1, 16, 4.5, 11.5], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [-1, 9, 4.5],
+			"to": [8, 9, 11.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 9, 8]},
+			"faces": {
+				"up": {"uv": [1, 11.5, 4.5, 16], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [1, 16, 4.5, 11.5], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}

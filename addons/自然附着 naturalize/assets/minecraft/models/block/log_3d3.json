@@ -1,0 +1,60 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"3d": "block/log_3d",
+		"particle": "block/end",
+		"end": "block/end",
+		"side": "block/side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#end", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#end", "cullface": "down"}
+			}
+		},
+		{
+			"from": [-0.8, 8, -1.6],
+			"to": [3.2, 9, 2.4],
+			"faces": {
+				"north": {"uv": [5, 0, 9, 1], "texture": "#3d", "cullface": "north"},
+				"east": {"uv": [5, 0, 9, 1], "texture": "#3d", "cullface": "north"},
+				"south": {"uv": [5, 0, 9, 1], "texture": "#3d", "cullface": "north"},
+				"west": {"uv": [5, 0, 9, 1], "texture": "#3d", "cullface": "north"},
+				"up": {"uv": [5, 0, 9, 4], "texture": "#3d", "cullface": "north"},
+				"down": {"uv": [5, 0, 9, 4], "texture": "#3d", "cullface": "north"}
+			}
+		},
+		{
+			"from": [-0.5, 10, -1],
+			"to": [2.5, 11, 2],
+			"faces": {
+				"north": {"uv": [9, 0, 12, 1], "texture": "#3d", "cullface": "north"},
+				"east": {"uv": [9, 0, 12, 1], "texture": "#3d", "cullface": "north"},
+				"south": {"uv": [9, 0, 12, 1], "texture": "#3d", "cullface": "north"},
+				"west": {"uv": [9, 0, 12, 1], "texture": "#3d", "cullface": "north"},
+				"up": {"uv": [9, 0, 12, 3], "texture": "#3d", "cullface": "north"},
+				"down": {"uv": [9, 0, 12, 3], "texture": "#3d", "cullface": "north"}
+			}
+		},
+		{
+			"from": [-0.9, 12, -1.8],
+			"to": [4.1, 13, 3.2],
+			"faces": {
+				"north": {"uv": [0, 0, 5, 1], "texture": "#3d", "cullface": "north"},
+				"east": {"uv": [0, 0, 5, 1], "texture": "#3d", "cullface": "north"},
+				"south": {"uv": [0, 0, 5, 1], "texture": "#3d", "cullface": "north"},
+				"west": {"uv": [0, 0, 5, 1], "texture": "#3d", "cullface": "north"},
+				"up": {"uv": [0, 0, 5, 5], "texture": "#3d", "cullface": "north"},
+				"down": {"uv": [0, 0, 5, 5], "texture": "#3d", "cullface": "north"}
+			}
+		}
+	]
+}

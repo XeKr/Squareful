@@ -1,0 +1,78 @@
+{
+	"__comment": "Designed by XeKr with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/birch_planks",
+		"body": "block/birch_planks",
+		"top": "block/stripped_birch_log_top"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Anvil base",
+			"from": [ 4, 0, 4 ],
+			"to": [ 12, 2, 12 ],
+			"faces": {
+				"down": { "uv": [ 4, 4, 12, 12 ], "texture": "#top", "cullface": "down", "rotation": 180 },
+				"up": { "uv": [ 4, 4, 12, 12 ], "texture": "#top", "rotation": 180 },
+				"north": { "uv": [ 4, 14, 12, 16 ], "texture": "#body" },
+				"south": { "uv": [ 4, 14, 12, 16 ], "texture": "#body" },
+				"west": { "uv": [ 4, 14, 12, 16 ], "texture": "#body" },
+				"east": { "uv": [ 4, 14, 12, 16 ], "texture": "#body" }
+			}
+		},
+		{
+			"__comment": "Lower narrow portion",
+			"from": [ 5, 2, 5 ],
+			"to": [ 11, 3, 11 ],
+			"faces": {
+				"up": { "uv": [ 5, 5, 11, 11 ], "texture": "#top" },
+				"north": { "uv": [ 4, 11, 10, 12 ], "texture": "#body" },
+				"south": { "uv": [ 4, 11, 10, 12 ], "texture": "#body" },
+				"west": { "uv": [ 4, 11, 10, 12 ], "texture": "#body" },
+				"east": { "uv": [ 4, 11, 10, 12 ], "texture": "#body" }
+			}
+		},
+		{
+			"__comment": "Wider section beneath top portion",
+			"from": [ 6, 3, 6 ],
+			"to": [ 10, 13, 10 ],
+			"faces": {
+				"north": { "uv": [ 0, 3, 4, 13 ], "texture": "#body" },
+				"south": { "uv": [ 0, 3, 4, 13 ], "texture": "#body" },
+				"west": { "uv": [ 0, 3, 4, 13 ], "texture": "#body" },
+				"east": { "uv": [ 0, 3, 4, 13 ], "texture": "#body" }
+			}
+		},
+		{
+			"__comment": "Anvil top",
+			"from": [ 3, 14, 3 ],
+			"to": [ 13, 16, 13 ],
+			"faces": {
+				"down": { "uv": [ 3, 3, 13, 13 ], "texture": "#top", "rotation": 180 },
+				"up": { "uv": [ 3, 3, 13, 13 ], "texture": "#top", "rotation": 180 },
+				"north": { "uv": [ 3, 0, 13, 2 ], "texture": "#top" },
+				"south": { "uv": [ 3, 0, 13, 2 ], "texture": "#top" },
+				"west": { "uv": [ 3, 0, 13, 2 ], "texture": "#top" },
+				"east": { "uv": [ 3, 0, 13, 2 ], "texture": "#top" }
+			}
+		},
+		{
+			"__comment": "Lower narrow portion",
+			"from": [ 5, 13, 5 ],
+			"to": [ 11, 14, 11 ],
+			"faces": {
+				"down": { "uv": [ 5, 5, 11, 11 ], "texture": "#top" },
+				"north": { "uv": [ 4, 11, 10, 12 ], "texture": "#body" },
+				"south": { "uv": [ 4, 11, 10, 12 ], "texture": "#body" },
+				"west": { "uv": [ 4, 11, 10, 12 ], "texture": "#body" },
+				"east": { "uv": [ 4, 11, 10, 12 ], "texture": "#body" }
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation":  [ 0, 90, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

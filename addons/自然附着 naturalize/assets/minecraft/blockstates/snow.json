@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "layers=1":  { "model": "block/snow_height2_3d" },
+        "layers=2":  { "model": "block/snow_height4_3d" },
+        "layers=3":  { "model": "block/snow_height6_3d" },
+        "layers=4":  { "model": "block/snow_height8_3d" },
+        "layers=5":  { "model": "block/snow_height10_3d" },
+        "layers=6":  { "model": "block/snow_height12_3d" },
+        "layers=7":  { "model": "block/snow_height14_3d" },
+        "layers=8":  { "model": "block/snow_height16_3d" }
+    }
+}

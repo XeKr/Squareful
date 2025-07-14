@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/log_3d3",
+  "textures": {
+    "end": "minecraft:block/spruce_log_top",
+    "side": "minecraft:block/spruce_log"
+  }
+}

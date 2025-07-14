@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/red_tulip"},
+	{"model": "minecraft:block/red_tulip", "y": 90},
+	{"model": "minecraft:block/red_tulip", "y": 180},
+	{"model": "minecraft:block/red_tulip", "y": 270}
+  ]
+  }
+}

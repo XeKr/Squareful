@@ -1,0 +1,8 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/red_tulip",
+	"textures": {
+		"0": "block/white_tulip_3d",
+		"particle": "block/white_tulip_3d"
+	}
+}

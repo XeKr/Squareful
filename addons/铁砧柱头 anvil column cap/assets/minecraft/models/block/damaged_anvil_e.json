@@ -1,0 +1,67 @@
+{
+	"__comment": "Designed by XeKr with Cubik Studio - https://cubik.studio",
+	"parent": "block/block0",
+	"textures": {
+		"particle": "block/quartz_block_top",
+		"body": "block/quartz_pillar",
+		"top": "block/quartz_block_smooth",
+		"front": "block/quartz_block_side"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Anvil base",
+			"from": [ 2, 0, 2 ],
+			"to": [ 14, 2, 14 ],
+			"faces": {
+				"down": { "uv": [ 2, 2, 14, 14 ], "texture": "#top", "cullface": "down", "rotation": 180 },
+				"up": { "uv": [ 2, 2, 14, 14 ], "texture": "#top", "rotation": 180 },
+				"north": { "uv": [ 0, 2, 2, 14 ], "texture": "#body", "rotation": 90 },
+				"south": { "uv": [ 0, 2, 2, 14 ], "texture": "#body", "rotation": 90 },
+				"west": { "uv": [ 0, 2, 2, 14 ], "texture": "#body", "rotation": 90 },
+				"east": { "uv": [ 2, 2, 0, 14 ], "texture": "#body", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Lower narrow portion",
+			"from": [ 3, 2, 3 ],
+			"to": [ 13, 3, 13 ],
+			"faces": {
+				"up": { "uv": [ 3, 3, 13, 13 ], "texture": "#top", "rotation": 180 },
+				"north": { "uv": [ 4, 3, 5, 13 ], "texture": "#body", "rotation": 90 },
+				"south": { "uv": [ 4, 3, 5, 13 ], "texture": "#body", "rotation": 90 },
+				"west": { "uv": [ 4, 3, 5, 13 ], "texture": "#body", "rotation": 90 },
+				"east": { "uv": [ 5, 3, 4, 13 ], "texture": "#body", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Wider section beneath top portion",
+			"from": [ 5, 3, 5 ],
+			"to": [ 11, 13, 11 ],
+			"faces": {
+				"north": { "uv": [ 3, 0, 9, 10 ], "texture": "#body" },
+				"south": { "uv": [ 3, 0, 9, 10 ], "texture": "#body" },
+				"west": { "uv": [ 3, 0, 9, 10 ], "texture": "#body" },
+				"east": { "uv": [ 3, 0, 9, 10 ], "texture": "#body" }
+			}
+		},
+		{
+			"__comment": "Anvil top",
+			"from": [ 0, 13, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#top", "rotation": 180 },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#top", "rotation": 180 },
+				"north": { "uv": [ 0, 0, 16, 3 ], "texture": "#front" },
+				"south": { "uv": [ 0, 0, 16, 3 ], "texture": "#front" },
+				"west": { "uv": [ 0, 0, 16, 3 ], "texture": "#front" },
+				"east": { "uv": [ 0, 0, 16, 3 ], "texture": "#front" }
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation":  [ 0, 90, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

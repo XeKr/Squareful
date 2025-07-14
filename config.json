@@ -8,6 +8,7 @@
   "icon": "./pack.png",
   "main_module": "main",
   "type": "resource",
+  "file_mode": true,
   "suggested_version": "1.21.1",
   "version_modules": {}
 }

@@ -1,0 +1,12 @@
+{
+  "pack_name": "Squareful",
+  "author": "XeKr at X/Utb/PMC/Bilibili",
+  "description": "方纹",
+  "version": "1.0.0",
+  "base_path": "./src",
+  "sets_path": "./sets",
+  "icon": "./pack.png",
+  "main_module": "main",
+  "version_modules": {
+  }
+}

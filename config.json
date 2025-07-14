@@ -7,6 +7,7 @@
   "sets_path": "./sets",
   "icon": "./pack.png",
   "main_module": "main",
-  "version_modules": {
-  }
+  "type": "resource",
+  "suggested_version": "1.21.1",
+  "version_modules": {}
 }

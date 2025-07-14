@@ -1,0 +1,11 @@
+{
+  "set_name": "全部附加",
+  "description": "",
+  "modules": [
+    "anvil_column_cap",
+    "lush_foliage",
+    "lush_plants",
+    "naturalize",
+    "tiny_item_frame"
+  ]
+}

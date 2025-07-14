@@ -1,0 +1,49 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/mangrove_planks",
+		"top": "block/mangrove_planks",
+		"out": "block/stripped_mangrove_log",
+		"in": "block/mangrove_log_top"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [6, 0, 6],
+			"to": [10, 12, 10],
+			"faces": {
+				"north": {"uv": [6, 4, 10, 16], "texture": "#out"},
+				"east": {"uv": [6, 4, 10, 16], "texture": "#out"},
+				"south": {"uv": [6, 4, 10, 16], "texture": "#out"},
+				"west": {"uv": [6, 4, 10, 16], "texture": "#out"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#in"},
+				"down": {"uv": [6, 6, 10, 10], "texture": "#in"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [6, 13, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 3], "texture": "#top"},
+				"east": {"uv": [12, 0, 16, 3], "texture": "#top"},
+				"south": {"uv": [12, 0, 16, 3], "texture": "#top"},
+				"west": {"uv": [12, 0, 16, 3], "texture": "#top"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#in"},
+				"down": {"uv": [6, 6, 10, 10], "texture": "#in"}
+			}
+		},
+		{
+			"name": "Box3",
+			"from": [6.5, 12, 6.5],
+			"to": [9.5, 13, 9.5],
+			"faces": {
+				"north": {"uv": [9, 3, 12, 4], "texture": "#top"},
+				"east": {"uv": [9, 3, 12, 4], "texture": "#top"},
+				"south": {"uv": [9, 3, 12, 4], "texture": "#top"},
+				"west": {"uv": [9, 3, 12, 4], "texture": "#top"}
+			}
+		}
+	]
+}

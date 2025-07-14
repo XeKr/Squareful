@@ -1,0 +1,7 @@
+{
+    "parent": "block/trapdoor_bottom_flip",
+    "textures": {
+        "texture": "block/cherry_trapdoor_flip",
+		"side": "minecraft:block/cherry_door_side"
+    }
+}

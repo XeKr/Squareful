@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/cherry_slab" },
+        "type=top": { "model": "block/cherry_slab", "x": 180, "uvlock": true },
+        "type=double": { "model": "block/double_cherry_slab" }
+    }
+}

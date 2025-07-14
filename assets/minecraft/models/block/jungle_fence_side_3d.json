@@ -1,0 +1,57 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"texture": "block/jungle_planks"
+	},
+	"elements": [
+		{
+			"name": "top bar",
+			"from": [7, 11, 0],
+			"to": [9, 13.95, 9],
+			"faces": {
+				"north": {"uv": [7, 1, 9, 4], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [7, 5, 16, 8], "texture": "#texture"},
+				"west": {"uv": [0, 5, 9, 8], "texture": "#texture"},
+				"up": {"uv": [7, 4.5, 16, 6.5], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [7, 4.5, 16, 6.5], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "lower bar",
+			"from": [7, 5, 0],
+			"to": [9, 8, 9],
+			"faces": {
+				"north": {"uv": [7, 1, 9, 4], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [7, 13, 16, 16], "texture": "#texture"},
+				"west": {"uv": [0, 13, 9, 16], "texture": "#texture"},
+				"up": {"uv": [7, 4.5, 16, 6.5], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [7, 4.5, 16, 6.5], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box7",
+			"from": [7.5, 3.625, 1],
+			"to": [8.5, 10.625, 2],
+			"rotation": {"angle": 45, "axis": "x", "origin": [7.5, 6.625, 5]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 7], "texture": "#texture"},
+				"east": {"uv": [0, 0, 1, 7], "texture": "#texture"},
+				"south": {"uv": [0, 0, 1, 7], "texture": "#texture"},
+				"west": {"uv": [0, 0, 1, 7], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box7",
+			"from": [7.5, 6.625, -2],
+			"to": [8.5, 7.625, 5],
+			"rotation": {"angle": 45, "axis": "x", "origin": [7.5, 6.625, 5]},
+			"faces": {
+				"east": {"uv": [0, 0, 1, 7], "rotation": 90, "texture": "#texture"},
+				"west": {"uv": [0, 0, 1, 7], "rotation": 90, "texture": "#texture"},
+				"up": {"uv": [0, 0, 1, 7], "texture": "#texture"},
+				"down": {"uv": [0, 0, 1, 7], "texture": "#texture"}
+			}
+		}
+	]
+}

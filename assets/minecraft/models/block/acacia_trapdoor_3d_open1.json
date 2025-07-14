@@ -1,0 +1,56 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"textures": {
+		"inner": "block/acacia_trapdoor3d_inner",
+		"particle": "block/acacia_trapdoor3d_flip",
+		"texture": "block/acacia_trapdoor3d_flip",
+		"side": "block/acacia_door3d_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 13],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "texture": "#texture"},
+				"east": {"uv": [3, 16, 6, 0], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 16, 16, 0], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [3, 16, 6, 0], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [3, 16, 0, 0], "rotation": 90, "texture": "#side", "cullface": "up"},
+				"down": {"uv": [0, 16, 3, 0], "rotation": 90, "texture": "#side", "cullface": "down"}
+			}
+		},
+		{
+			"from": [13.01, 13.01, 16.01],
+			"to": [2.99, 2.99, 12.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 14.5]},
+			"faces": {
+				"east": {"uv": [3, 3, 0, 12], "texture": "#side"},
+				"west": {"uv": [3, 3, 0, 12], "rotation": 180, "texture": "#side"},
+				"up": {"uv": [3, 3, 0, 12], "rotation": 270, "texture": "#side"},
+				"down": {"uv": [3, 3, 0, 12], "rotation": 90, "texture": "#side"}
+			}
+		},
+		{
+			"from": [4.99, 2.99, 13.99],
+			"to": [7.01, 13.01, 15.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [5, 13, 7, 3], "rotation": 180, "texture": "#inner"},
+				"east": {"uv": [5, 3, 6, 13], "rotation": 180, "texture": "#inner"},
+				"south": {"uv": [11, 3, 9, 13], "texture": "#inner"},
+				"west": {"uv": [5, 3, 6, 13], "texture": "#inner"}
+			}
+		},
+		{
+			"from": [8.99, 2.99, 13.99],
+			"to": [11.01, 13.01, 15.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [9, 13, 11, 3], "rotation": 180, "texture": "#inner"},
+				"east": {"uv": [9, 3, 10, 13], "rotation": 180, "texture": "#inner"},
+				"south": {"uv": [7, 3, 5, 13], "texture": "#inner"},
+				"west": {"uv": [9, 3, 10, 13], "texture": "#inner"}
+			}
+		}
+	]
+}

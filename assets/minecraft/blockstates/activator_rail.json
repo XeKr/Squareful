@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "powered=false,shape=north_south":  { "model": "block/activator_rail_3d" },
+        "powered=false,shape=east_west":  { "model": "block/activator_rail_3d", "y": 90 },
+        "powered=false,shape=ascending_east": { "model": "block/activator_rail_3d_raised", "y": 90 },
+        "powered=false,shape=ascending_west": { "model": "block/activator_rail_3d_raised", "y": 270 },
+        "powered=false,shape=ascending_north": { "model": "block/activator_rail_3d_raised" },
+        "powered=false,shape=ascending_south": { "model": "block/activator_rail_3d_raised","y":180 },
+        "powered=true,shape=north_south":  { "model": "block/activator_rail_3d_on" },
+        "powered=true,shape=east_west":  { "model": "block/activator_rail_3d_on", "y": 90 },
+        "powered=true,shape=ascending_east": { "model": "block/activator_rail_3d_raised_on", "y": 90 },
+        "powered=true,shape=ascending_west": { "model": "block/activator_rail_3d_raised_on", "y": 270 },
+        "powered=true,shape=ascending_north": { "model": "block/activator_rail_3d_raised_on" },
+        "powered=true,shape=ascending_south": { "model": "block/activator_rail_3d_raised_on","y":180 }
+    }
+}

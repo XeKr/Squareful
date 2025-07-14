@@ -1,0 +1,59 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"elements": [
+		{
+			"name": "face",
+			"from": [10, 0, 0],
+			"to": [16, 8, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 6, 16], "texture": "#face", "cullface": "north"}
+			}
+		},
+		{
+			"name": "side",
+			"from": [16, 0, 5],
+			"to": [16, 4, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 12, 11, 16], "texture": "#side", "cullface": "east"}
+			}
+		},
+		{
+			"name": "side",
+			"from": [0, 0, 16],
+			"to": [11, 4, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"south": {"uv": [0, 12, 11, 16], "texture": "#side", "cullface": "south"}
+			}
+		},
+		{
+			"name": "side",
+			"from": [0, 0, 0],
+			"to": [0, 4, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"west": {"uv": [0, 12, 11, 16], "texture": "#side", "cullface": "west"}
+			}
+		},
+		{
+			"name": "top",
+			"from": [9, 16, 6],
+			"to": [10, 16, 8],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"up": {"uv": [9, 6, 10, 8], "rotation": 180, "texture": "#top", "cullface": "up"}
+			}
+		},
+		{
+			"name": "top",
+			"from": [9, 0, 8],
+			"to": [10, 0, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"down": {"uv": [9, 6, 10, 8], "texture": "#top", "cullface": "down"}
+			}
+		}
+	]
+}

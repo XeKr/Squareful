@@ -1,0 +1,7 @@
+{
+  "parent": "block/trapdoor_top",
+  "textures": {
+    "texture": "minecraft:block/bamboo_trapdoor",
+    "side": "minecraft:block/bamboo_door_side"
+  }
+}

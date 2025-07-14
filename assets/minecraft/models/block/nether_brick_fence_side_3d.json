@@ -1,0 +1,78 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"texture": "block/nether_bricks_end",
+		"line": "block/nether_bricks_top"
+	},
+	"elements": [
+		{
+			"name": "top bar",
+			"from": [7, 11, 0],
+			"to": [9, 13.95, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 10, 8]},
+			"faces": {
+				"north": {"uv": [3, 1, 5, 4], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [3, 1, 12, 4], "texture": "#texture"},
+				"west": {"uv": [3, 1, 12, 4], "texture": "#texture"},
+				"up": {"uv": [3, 0, 12, 2], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [3, 0, 12, 2], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "top bar",
+			"from": [7, 5, 0],
+			"to": [9, 8, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [3, 1, 5, 4], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [3, 1, 12, 4], "texture": "#texture"},
+				"west": {"uv": [3, 1, 12, 4], "texture": "#texture"},
+				"up": {"uv": [3, 0, 12, 2], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [3, 0, 12, 2], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box7",
+			"from": [6.5, 0, 4.5],
+			"to": [7.5, 16, 5.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"east": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"south": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"west": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"up": {"uv": [7, 7, 8, 8], "texture": "#line"},
+				"down": {"uv": [7, 7, 8, 8], "texture": "#line"}
+			}
+		},
+		{
+			"name": "Box8",
+			"from": [8.5, 0, 2.5],
+			"to": [9.5, 16, 3.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10.5, 8, 5.5]},
+			"faces": {
+				"north": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"east": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"south": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"west": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"up": {"uv": [7, 7, 8, 8], "texture": "#line"},
+				"down": {"uv": [7, 7, 8, 8], "texture": "#line"}
+			}
+		},
+		{
+			"name": "Box9",
+			"from": [6.5, 0, 0.5],
+			"to": [7.5, 16, 1.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 8, 3.5]},
+			"faces": {
+				"north": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"east": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"south": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"west": {"uv": [15, 0, 16, 16], "texture": "#line"},
+				"up": {"uv": [7, 7, 8, 8], "texture": "#line"},
+				"down": {"uv": [7, 7, 8, 8], "texture": "#line"}
+			}
+		}
+	]
+}

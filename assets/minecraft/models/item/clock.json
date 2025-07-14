@@ -1,0 +1,139 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"base": "item/clock/clock_base_trade",
+		"top": "item/clock/clock_top",
+		"particle": "item/clock/clock_back",
+		"back": "item/clock/clock_back",
+		"side": "item/clock/clock_side",
+		"hand": "item/clock/clock_00"
+	},
+	"elements": [
+		{
+			"from": [2, 6, 2],
+			"to": [14, 10, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.5, 8]},
+			"faces": {
+				"north": {"uv": [2, 6, 14, 10], "texture": "#side"},
+				"east": {"uv": [2, 6, 14, 10], "texture": "#side"},
+				"south": {"uv": [2, 6, 14, 10], "texture": "#side"},
+				"west": {"uv": [2, 6, 14, 10], "texture": "#side"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#top"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#back"}
+			}
+		},
+		{
+			"from": [2.5, 10, 2.5],
+			"to": [13.5, 9.5, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 7, 14, 8], "texture": "#side"},
+				"east": {"uv": [2, 7, 14, 8], "texture": "#side"},
+				"south": {"uv": [2, 7, 14, 8], "texture": "#side"},
+				"west": {"uv": [2, 7, 14, 8], "texture": "#side"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#base"}
+			}
+		},
+		{
+			"name": "hand0",
+			"from": [4, 9.7, 4],
+			"to": [12, 9.7, 12],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 9.7, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 8, 8], "rotation": 90, "texture": "#hand"}
+			}
+		},
+		{
+			"name": "hand1",
+			"from": [4, 9.7, 4],
+			"to": [12, 9.7, 12],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 9.7, 8]},
+			"faces": {
+				"up": {"uv": [8, 0, 16, 8], "rotation": 90, "texture": "#hand"}
+			}
+		},
+		{
+			"name": "hand2",
+			"from": [4, 9.7, 4],
+			"to": [12, 9.7, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.7, 8]},
+			"faces": {
+				"up": {"uv": [8, 8, 16, 16], "rotation": 90, "texture": "#hand"}
+			}
+		},
+		{
+			"name": "hand3",
+			"from": [4, 9.7, 4],
+			"to": [12, 9.7, 12],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 9.7, 8]},
+			"faces": {
+				"up": {"uv": [0, 8, 8, 16], "rotation": 90, "texture": "#hand"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"overrides": [
+		{"predicate": {"time": 0}, "model": "item/clock"},
+		{"predicate": {"time": 0.03125}, "model": "item/clock_01"},
+		{"predicate": {"time": 0.09375}, "model": "item/clock_02"},
+		{"predicate": {"time": 0.096}, "model": "item/clock_02a"},
+		{"predicate": {"time": 0.15625}, "model": "item/clock_03"},
+		{"predicate": {"time": 0.21875}, "model": "item/clock_04"},
+		{"predicate": {"time": 0.24}, "model": "item/clock_04a"},
+		{"predicate": {"time": 0.28125}, "model": "item/clock_05"},
+		{"predicate": {"time": 0.34375}, "model": "item/clock_06"},
+		{"predicate": {"time": 0.40625}, "model": "item/clock_07"},
+		{"predicate": {"time": 0.46875}, "model": "item/clock_08"},
+		{"predicate": {"time": 0.53125}, "model": "item/clock_09"},
+		{"predicate": {"time": 0.59375}, "model": "item/clock_10"},
+		{"predicate": {"time": 0.65625}, "model": "item/clock_11"},
+		{"predicate": {"time": 0.71875}, "model": "item/clock_12"},
+		{"predicate": {"time": 0.76}, "model": "item/clock_12a"},
+		{"predicate": {"time": 0.78125}, "model": "item/clock_13"},
+		{"predicate": {"time": 0.84375}, "model": "item/clock_14"},
+		{"predicate": {"time": 0.8666}, "model": "item/clock_14a"},
+		{"predicate": {"time": 0.90625}, "model": "item/clock_15"},
+		{"predicate": {"time": 0.96875}, "model": "item/clock"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70, 0, 0],
+			"translation": [0, 2.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, 0, 0],
+			"translation": [0, 2.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [75, -5, 33],
+			"translation": [1, 2, -1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [75, -5, 33],
+			"translation": [1, 2, -1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [60, 0, 0]
+		},
+		"head": {
+			"rotation": [-90, -180, 0],
+			"translation": [0, 6.75, -6.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"fixed": {
+			"rotation": [-90, 180, 0],
+			"translation": [0, 0, 2],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

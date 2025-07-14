@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:item/template_waxed_block",
+	"textures": {
+		"top": "block/oxidized_cut_copper",
+		"side": "block/oxidized_cut_copper",
+		"bottom": "block/oxidized_cut_copper"
+	}
+	}
+}

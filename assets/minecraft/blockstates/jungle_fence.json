@@ -1,0 +1,17 @@
+{
+    "multipart": [
+        {   "apply": { "model": "block/jungle_fence_post_3d" }},
+        {   "when": { "north": "true" },
+            "apply": { "model": "block/jungle_fence_side_3d"}
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "block/jungle_fence_side_3d", "y": 90}
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "block/jungle_fence_side_3d", "y": 180}
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "block/jungle_fence_side_3d", "y": 270}
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:item/villager_spawn_egg",
+	"textures": {
+		"0": "item/spawn_egg/wandering_trader"
+	}
+}

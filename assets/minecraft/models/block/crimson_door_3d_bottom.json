@@ -1,0 +1,32 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"textures": {
+		"side": "block/crimson_door3d_side",
+		"particle": "block/crimson_door3d_bottom",
+		"front": "block/crimson_door3d_bottom",
+		"back": "block/crimson_door3d_bottom_flip"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [9, 0, 12, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#back"},
+				"south": {"uv": [3, 0, 6, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#front", "cullface": "west"},
+				"down": {"uv": [0, 0, 3, 16], "rotation": 180, "texture": "#side", "cullface": "down"}
+			}
+		},
+		{
+			"from": [3.01, 16.01, 14.01],
+			"to": [-0.01, 14.99, 11.99],
+			"faces": {
+				"north": {"uv": [0, 2, 3, 3], "texture": "#side"},
+				"south": {"uv": [0, 2, 3, 3], "texture": "#side"},
+				"up": {"uv": [0, 2, 3, 4], "texture": "#side"},
+				"down": {"uv": [0, 2, 3, 4], "texture": "#side"}
+			}
+		}
+	]
+}

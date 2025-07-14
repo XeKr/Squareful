@@ -1,0 +1,47 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/nether_bricks_side",
+		"out": "block/nether_bricks_side"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [10, 0, 6, 16], "texture": "#out"},
+				"east": {"uv": [6, 0, 10, 16], "texture": "#out"},
+				"south": {"uv": [10, 0, 6, 16], "texture": "#out"},
+				"west": {"uv": [6, 0, 10, 16], "texture": "#out"},
+				"up": {"uv": [11, 0, 15, 4], "texture": "#out"},
+				"down": {"uv": [11, 0, 15, 4], "texture": "#out"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [6.9688, 16, 6.9688],
+			"to": [9.0313, 19, 9.0313],
+			"faces": {
+				"north": {"uv": [7, 13, 9, 16], "texture": "#out", "cullface": "up"},
+				"east": {"uv": [7, 13, 9, 16], "texture": "#out", "cullface": "up"},
+				"south": {"uv": [7, 13, 9, 16], "texture": "#out", "cullface": "up"},
+				"west": {"uv": [7, 13, 9, 16], "texture": "#out", "cullface": "up"},
+				"up": {"uv": [5, 12, 7, 14], "texture": "#out", "cullface": "up"}
+			}
+		},
+		{
+			"name": "Box2",
+			"from": [7.5, 19, 7.5],
+			"to": [8.5, 22, 8.5],
+			"faces": {
+				"north": {"uv": [7, 12, 8, 15], "texture": "#out", "cullface": "up"},
+				"east": {"uv": [7, 12, 8, 15], "texture": "#out", "cullface": "up"},
+				"south": {"uv": [7, 12, 8, 15], "texture": "#out", "cullface": "up"},
+				"west": {"uv": [7, 12, 8, 15], "texture": "#out", "cullface": "up"},
+				"up": {"uv": [5, 12, 6, 13], "texture": "#out", "cullface": "up"}
+			}
+		}
+	]
+}

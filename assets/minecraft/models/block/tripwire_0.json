@@ -1,0 +1,29 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/tripwire_n",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/tripwire",
+		"texture": "block/tripwire"
+	},
+	"elements": [
+		{
+			"from": [7.75, 1.5, 4],
+			"to": [8.25, 1.5, 8],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [0, 9, 16, 11], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [16, 9, 0, 11], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"from": [7.75, 1.5, 8],
+			"to": [8.25, 1.5, 12],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [0, 9, 16, 11], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [16, 9, 0, 11], "rotation": 90, "texture": "#texture"}
+			}
+		}
+	]
+}

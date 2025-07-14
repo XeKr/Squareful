@@ -1,0 +1,36 @@
+{
+	"parent": "block/block",
+	"render_type": "cutout",
+	"textures": {
+		"0": "block/redstone_torch_off",
+		"1": "toms_storage:block/inventory_hopper_basic",
+		"particle": "toms_storage:block/inventory_hopper_basic"
+	},
+	"elements": [
+		{
+			"name": "top",
+			"from": [3, 6, 3],
+			"to": [13, 16, 13],
+			"faces": {
+				"north": {"uv": [6, 0, 16, 10], "texture": "#1"},
+				"east": {"uv": [6, 0, 16, 10], "texture": "#1"},
+				"south": {"uv": [6, 0, 16, 10], "texture": "#1"},
+				"west": {"uv": [6, 0, 16, 10], "texture": "#1"},
+				"up": {"uv": [6, 0, 16, 10], "texture": "#1"},
+				"down": {"uv": [6, 0, 16, 10], "texture": "#1"}
+			}
+		},
+		{
+			"name": "bottom3",
+			"from": [7.2, 0, 7.2],
+			"to": [8.8, 6, 8.8],
+			"faces": {
+				"north": {"uv": [7, 4, 9, 12], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [7, 4, 9, 12], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [7, 4, 9, 12], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [7, 4, 9, 12], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [7, 4, 9, 6], "texture": "#0"}
+			}
+		}
+	]
+}

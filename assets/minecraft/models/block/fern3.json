@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/tinted_crossx",
+  "textures": {
+    "cross": "minecraft:block/fern3",
+    "crossx": "minecraft:block/fern3x"
+  }
+}

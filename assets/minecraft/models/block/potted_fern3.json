@@ -1,0 +1,9 @@
+{
+	"parent": "block/potted_fern",
+	"textures": {
+		"1": "block/pot3d4",
+		"2": "block/pot3d4_2",
+		"3": "block/fern_pot3",
+		"particle": "block/pot3d4"
+	}
+}

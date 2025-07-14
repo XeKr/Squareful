@@ -1,0 +1,8 @@
+{
+    "parent": "block/template_wall_side_2end",
+    "textures": {
+        "wall": "block/tuff_bricks_wall",
+        "top": "block/tuff_top",
+        "bottom": "block/tuff_bricks"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/black_carpet",
+  "textures": {
+    "wool": "minecraft:block/lime_wool"
+  }
+}

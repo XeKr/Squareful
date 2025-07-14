@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "bottom=true,distance=0": { "model": "block/scaffolding_unstable" },
+        "bottom=true,distance=1": { "model": "block/scaffolding_unstable" },
+        "bottom=true,distance=2": { "model": "block/scaffolding_unstable" },
+        "bottom=true,distance=3": { "model": "block/scaffolding_unstable" },
+        "bottom=true,distance=4": { "model": "block/scaffolding_unstable" },
+        "bottom=true,distance=5": { "model": "block/scaffolding_unstable" },
+        "bottom=true,distance=6": { "model": "block/scaffolding_last" },
+        "bottom=true,distance=7": { "model": "block/scaffolding_last" },
+        "bottom=false,distance=0": { "model": "block/scaffolding_stable" },
+        "bottom=false,distance=1": { "model": "block/scaffolding_stable" },
+        "bottom=false,distance=2": { "model": "block/scaffolding_stable" },
+        "bottom=false,distance=3": { "model": "block/scaffolding_stable" },
+        "bottom=false,distance=4": { "model": "block/scaffolding_stable" },
+        "bottom=false,distance=5": { "model": "block/scaffolding_stable" },
+        "bottom=false,distance=6": { "model": "block/scaffolding_stable" },
+        "bottom=false,distance=7": { "model": "block/scaffolding_stable" }
+    }
+}

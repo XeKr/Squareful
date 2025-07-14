@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/resin_brick_slab" },
+        "type=top": { "model": "block/resin_brick_slab_top" },
+        "type=double": { "model": "block/double_resin_bricks_slab" }
+    }
+}

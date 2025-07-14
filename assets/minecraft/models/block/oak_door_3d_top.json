@@ -1,0 +1,41 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"textures": {
+		"particle": "block/oak_door3d_top",
+		"front": "block/oak_door3d_top",
+		"side": "block/oak_door3d_side",
+		"back": "block/oak_door3d_top_flip",
+		"inner": "block/oak_door3d_top_inner"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [6, 0, 9, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#back"},
+				"south": {"uv": [3, 0, 6, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#front", "cullface": "west"},
+				"up": {"uv": [0, 0, 3, 16], "rotation": 180, "texture": "#side", "cullface": "up"}
+			}
+		},
+		{
+			"from": [3.01, 12.01, 12.01],
+			"to": [-0.01, 3.99, 3.99],
+			"faces": {
+				"north": {"uv": [6, 12, 3, 4], "texture": "#side"},
+				"south": {"uv": [6, 12, 3, 4], "texture": "#side"},
+				"up": {"uv": [0, 4, 3, 12], "texture": "#side"},
+				"down": {"uv": [0, 4, 3, 12], "texture": "#side"}
+			}
+		},
+		{
+			"from": [0.99, 3.99, 3.99],
+			"to": [2.01, 12.01, 12.01],
+			"faces": {
+				"east": {"uv": [4, 4, 12, 12], "texture": "#inner"},
+				"west": {"uv": [4, 4, 12, 12], "texture": "#inner"}
+			}
+		}
+	]
+}

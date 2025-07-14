@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/black_wool",
+  "textures": {
+    "all": "minecraft:block/purple_wool"
+  }
+}

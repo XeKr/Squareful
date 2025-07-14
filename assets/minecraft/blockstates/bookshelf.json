@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/bookshelf_3d", "weight": 3 },
+            { "model": "block/bookshelf_3d_r", "weight": 3 },
+            { "model": "block/bookshelf_3d_rr", "weight": 3 },
+            { "model": "block/bookshelf_3d_rrr", "weight": 3 },
+            { "model": "block/bookshelf_3d2", "weight": 1 },
+            { "model": "block/bookshelf_3d2_r", "weight": 1 },
+            { "model": "block/bookshelf_3d2_rr", "weight": 1 },
+            { "model": "block/bookshelf_3d2_rrr", "weight": 1 },
+            { "model": "block/bookshelf_3d3", "weight": 2 },
+            { "model": "block/bookshelf_3d3_r", "weight": 2 },
+            { "model": "block/bookshelf_3d3_rr", "weight": 2 },
+            { "model": "block/bookshelf_3d3_rrr", "weight": 2 },
+            { "model": "block/bookshelf_3d4", "weight": 1 },
+            { "model": "block/bookshelf_3d4_r", "weight": 1 },
+            { "model": "block/bookshelf_3d4_rr", "weight": 1 },
+            { "model": "block/bookshelf_3d4_rrr", "weight": 1 }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/wall_postx",
+    "textures": {
+        "wall_bottom": "block/deepslate_bricks",
+        "wall_top": "block/cobbled_deepslate_top",
+        "wall": "block/deepslate_bricks_post"
+   }
+}

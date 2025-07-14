@@ -1,0 +1,137 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"base": "item/recovery_compass/compass_base",
+		"top": "item/recovery_compass/compass_top",
+		"particle": "item/recovery_compass/compass_back",
+		"back": "item/recovery_compass/compass_back",
+		"side": "item/recovery_compass/compass_side",
+		"hand": "item/recovery_compass/compass_00"
+	},
+	"elements": [
+		{
+			"from": [2, 6, 2],
+			"to": [14, 10, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.5, 8]},
+			"faces": {
+				"north": {"uv": [2, 6, 14, 10], "texture": "#side"},
+				"east": {"uv": [2, 6, 14, 10], "texture": "#side"},
+				"south": {"uv": [2, 6, 14, 10], "texture": "#side"},
+				"west": {"uv": [2, 6, 14, 10], "texture": "#side"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#top"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#back"}
+			}
+		},
+		{
+			"from": [2.5, 10, 2.5],
+			"to": [13.5, 9.5, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 7, 14, 8], "texture": "#side"},
+				"east": {"uv": [2, 7, 14, 8], "texture": "#side"},
+				"south": {"uv": [2, 7, 14, 8], "texture": "#side"},
+				"west": {"uv": [2, 7, 14, 8], "texture": "#side"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#base"}
+			}
+		},
+		{
+			"name": "hand0",
+			"from": [4, 9.7, 4],
+			"to": [12, 9.7, 12],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 9.7, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 8, 8], "rotation": 90, "texture": "#hand"}
+			}
+		},
+		{
+			"name": "hand1",
+			"from": [4, 9.7, 4],
+			"to": [12, 9.7, 12],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 9.7, 8]},
+			"faces": {
+				"up": {"uv": [8, 0, 16, 8], "rotation": 90, "texture": "#hand"}
+			}
+		},
+		{
+			"name": "hand2",
+			"from": [4, 9.7, 4],
+			"to": [12, 9.7, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.7, 8]},
+			"faces": {
+				"up": {"uv": [8, 8, 16, 16], "rotation": 90, "texture": "#hand"}
+			}
+		},
+		{
+			"name": "hand3",
+			"from": [4, 9.7, 4],
+			"to": [12, 9.7, 12],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 9.7, 8]},
+			"faces": {
+				"up": {"uv": [0, 8, 8, 16], "rotation": 90, "texture": "#hand"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"overrides": [
+		{"predicate": {"angle": 0}, "model": "item/recovery_compass_00"},
+		{"predicate": {"angle": 0.005}, "model": "item/recovery_compass"},
+		{"predicate": {"angle": 0.03125}, "model": "item/recovery_compass_01"},
+		{"predicate": {"angle": 0.09375}, "model": "item/recovery_compass_02"},
+		{"predicate": {"angle": 0.15625}, "model": "item/recovery_compass_03"},
+		{"predicate": {"angle": 0.21875}, "model": "item/recovery_compass_04"},
+		{"predicate": {"angle": 0.28125}, "model": "item/recovery_compass_05"},
+		{"predicate": {"angle": 0.34375}, "model": "item/recovery_compass_06"},
+		{"predicate": {"angle": 0.40625}, "model": "item/recovery_compass_07"},
+		{"predicate": {"angle": 0.46875}, "model": "item/recovery_compass_08"},
+		{"predicate": {"angle": 0.53125}, "model": "item/recovery_compass_09"},
+		{"predicate": {"angle": 0.59375}, "model": "item/recovery_compass_10"},
+		{"predicate": {"angle": 0.65625}, "model": "item/recovery_compass_11"},
+		{"predicate": {"angle": 0.71875}, "model": "item/recovery_compass_12"},
+		{"predicate": {"angle": 0.78125}, "model": "item/recovery_compass_13"},
+		{"predicate": {"angle": 0.84375}, "model": "item/recovery_compass_14"},
+		{"predicate": {"angle": 0.90625}, "model": "item/recovery_compass_15"},
+		{"predicate": {"angle": 0.96875}, "model": "item/recovery_compass"},
+		{"predicate": {"angle": 0.995}, "model": "item/recovery_compass_00"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70, 0, 0],
+			"translation": [0, 2.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, 0, 0],
+			"translation": [0, 2.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [75, -5, 33],
+			"translation": [1, 2, -1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [75, -5, 33],
+			"translation": [1, 2, -1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [60, 0, 0]
+		},
+		"head": {
+			"rotation": [-90, -180, 0],
+			"translation": [0, 6.75, -6.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"fixed": {
+			"rotation": [-90, 180, 0],
+			"translation": [0, 0, 2],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/jack_o_lantern",
+    "textures": {
+        "front": "block/jack_o_lantern1",
+        "particle": "block/jack_o_lantern1"
+    }
+}

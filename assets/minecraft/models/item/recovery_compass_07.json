@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/recovery_compass",
+	"textures": {
+		"base": "item/recovery_compass/compass_base",
+		"hand": "item/recovery_compass/compass_07"
+	}
+}

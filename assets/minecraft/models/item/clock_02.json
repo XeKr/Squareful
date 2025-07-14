@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/clock",
+	"textures": {
+		"base": "item/clock/clock_base_trade",
+		"hand": "item/clock/clock_02"
+	}
+}

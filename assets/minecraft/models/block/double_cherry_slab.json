@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column_end_small",
+    "textures": {
+        "top": "block/cherry_planks",
+        "side": "block/cherry_planks_side",
+        "end": "block/cherry_planks_end"
+    }
+}

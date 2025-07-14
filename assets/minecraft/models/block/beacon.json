@@ -1,0 +1,108 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/beacon_glass",
+		"glass": "block/beacon_glass",
+		"beacon": "block/beacon",
+		"base": "block/beacon_base"
+	},
+	"elements": [
+		{
+			"name": "Glass shell",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Obsidian base",
+			"from": [1, 0.1, 1],
+			"to": [15, 3, 15],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 13, 14, 16], "texture": "#base"},
+				"east": {"uv": [0, 13, 14, 16], "texture": "#base"},
+				"south": {"uv": [0, 13, 14, 16], "texture": "#base"},
+				"west": {"uv": [0, 13, 14, 16], "texture": "#base"},
+				"up": {"uv": [0, 0, 14, 14], "texture": "#base"},
+				"down": {"uv": [0, 0, 14, 14], "texture": "#base", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Inner beacon texture",
+			"from": [4.5, 4.5, 4.5],
+			"to": [11.5, 11.5, 11.5],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [9, 9, 16, 16], "texture": "#beacon"},
+				"east": {"uv": [9, 9, 16, 16], "texture": "#beacon"},
+				"south": {"uv": [9, 9, 16, 16], "texture": "#beacon"},
+				"west": {"uv": [9, 9, 16, 16], "texture": "#beacon"},
+				"up": {"uv": [9, 9, 16, 16], "texture": "#beacon"},
+				"down": {"uv": [9, 9, 16, 16], "texture": "#beacon"}
+			}
+		},
+		{
+			"name": "Inner beacon texture",
+			"from": [12.5, 12.5, 12.5],
+			"to": [3.5, 3.5, 3.5],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#beacon"},
+				"east": {"uv": [8, 0, 16, 8], "texture": "#beacon"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#beacon"},
+				"west": {"uv": [8, 0, 16, 8], "texture": "#beacon"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#beacon"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#beacon"}
+			}
+		},
+		{
+			"name": "Inner beacon texture",
+			"from": [12.1, 12.1, 12.1],
+			"to": [3.9, 3.9, 3.9],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#beacon"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#beacon"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#beacon"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#beacon"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#beacon"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#beacon"}
+			}
+		},
+		{
+			"name": "Inner beacon texture",
+			"from": [11.8, 11.8, 11.8],
+			"to": [4.2, 4.2, 4.2],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#beacon"},
+				"east": {"uv": [0, 8, 8, 16], "texture": "#beacon"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#beacon"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#beacon"},
+				"up": {"uv": [0, 8, 8, 16], "texture": "#beacon"},
+				"down": {"uv": [0, 8, 8, 16], "texture": "#beacon"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	}
+}

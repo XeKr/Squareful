@@ -1,0 +1,21 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"textures": {
+		"bar": "block/dark_oak_planks",
+		"particle": "block/bell_bottom"
+	},
+	"elements": [
+		{
+			"from": [3, 13, 7],
+			"to": [16, 15, 9],
+			"faces": {
+				"north": {"uv": [14, 2, 2, 4], "texture": "#bar"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#bar", "cullface": "east"},
+				"south": {"uv": [2, 2, 14, 4], "texture": "#bar"},
+				"west": {"uv": [14, 2, 16, 4], "texture": "#bar"},
+				"up": {"uv": [2, 2, 14, 4], "texture": "#bar"},
+				"down": {"uv": [2, 2, 14, 4], "texture": "#bar"}
+			}
+		}
+	]
+}

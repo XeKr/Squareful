@@ -1,0 +1,8 @@
+{
+	"parent": "create:block/cart_assembler/block_controller_rail",
+    "textures": {
+        "6": "create:block/cart_assembler_side_on",
+        "rail": "create:block/controller_rail3d",
+		"tint": "create:block/controller_rail3d_tint_on"
+    }
+}

@@ -1,0 +1,74 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/firefly_bush_3_bottom",
+		"cross": "block/firefly_bush_3_bottom",
+		"cross_emissive": "block/firefly_bush_emissive",
+		"cross_top": "block/firefly_bush_3_top"
+	},
+	"elements": [
+		{
+			"from": [0.8, 0, 8],
+			"to": [15.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 16, 0.8],
+			"to": [8, 26, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 24, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 6, 16, 16], "texture": "#cross_top"},
+				"west": {"uv": [0, 6, 16, 16], "texture": "#cross_top"}
+			}
+		},
+		{
+			"from": [0.8, 16, 8],
+			"to": [15.2, 26, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 24, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 6, 16, 16], "texture": "#cross_top"},
+				"south": {"uv": [0, 6, 16, 16], "texture": "#cross_top"}
+			}
+		},
+		{
+			"from": [0.8, 0, 8],
+			"to": [15.2, 16, 8],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross_emissive"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross_emissive"}
+			}
+		},
+		{
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross_emissive"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross_emissive"}
+			}
+		}
+	]
+}

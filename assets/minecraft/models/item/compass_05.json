@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/compass",
+	"textures": {
+		"base": "item/compass/compass_base",
+		"hand": "item/compass/compass_05"
+	}
+}

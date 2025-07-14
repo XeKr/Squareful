@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/cactus_flower" , "weight": 3},
+		{ "model": "block/cactus_flower2", "weight": 2},
+		{ "model": "block/cactus_flower3", "weight": 1}
+		]
+    }
+}

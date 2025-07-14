@@ -1,0 +1,62 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/trapdoor3d_bottom_flip",
+	"textures": {
+		"particle": "block/crimson_trapdoor3d_flip",
+		"texture": "block/crimson_trapdoor3d_flip",
+		"side": "block/crimson_door3d_side",
+		"inner": "block/crimson_trapdoor3d_inner"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [0, 16, 3, 0], "rotation": 90, "texture": "#side", "cullface": "north"},
+				"east": {"uv": [3, 16, 6, 0], "rotation": 90, "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#side", "cullface": "south"},
+				"west": {"uv": [3, 0, 6, 16], "rotation": 90, "texture": "#side", "cullface": "west"},
+				"up": {"uv": [16, 16, 0, 0], "texture": "#texture"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#texture", "cullface": "down"}
+			}
+		},
+		{
+			"from": [14.01, 3.01, 5.01],
+			"to": [1.99, -0.01, 1.99],
+			"faces": {
+				"north": {"uv": [3, 0, 0, 12], "rotation": 90, "texture": "#side"},
+				"east": {"uv": [3, 0, 0, 3], "rotation": 90, "texture": "#side"},
+				"south": {"uv": [3, 0, 0, 12], "rotation": 90, "texture": "#side"},
+				"west": {"uv": [3, 0, 0, 3], "rotation": 90, "texture": "#side"}
+			}
+		},
+		{
+			"from": [14.01, 3.01, 14.01],
+			"to": [1.99, -0.01, 10.99],
+			"faces": {
+				"north": {"uv": [3, 0, 0, 12], "rotation": 90, "texture": "#side"},
+				"east": {"uv": [3, 0, 0, 3], "rotation": 90, "texture": "#side"},
+				"south": {"uv": [3, 0, 0, 12], "rotation": 90, "texture": "#side"},
+				"west": {"uv": [3, 0, 0, 3], "rotation": 90, "texture": "#side"}
+			}
+		},
+		{
+			"from": [14.01, 3.01, 10.01],
+			"to": [1.99, -0.01, 5.99],
+			"faces": {
+				"north": {"uv": [3, 0, 0, 12], "rotation": 90, "texture": "#side"},
+				"east": {"uv": [3, 0, 0, 4], "rotation": 90, "texture": "#side"},
+				"south": {"uv": [3, 0, 0, 12], "rotation": 90, "texture": "#side"},
+				"west": {"uv": [3, 0, 0, 4], "rotation": 90, "texture": "#side"}
+			}
+		},
+		{
+			"from": [1.99, 0.99, 1.99],
+			"to": [14.01, 2.01, 14.01],
+			"faces": {
+				"up": {"uv": [2, 2, 14, 14], "texture": "#inner"},
+				"down": {"uv": [2, 14, 14, 2], "texture": "#inner"}
+			}
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/template_glass_pane_noside",
+	"textures": {
+		"pane": "block/glass_pane_top"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#pane"},
+				"east": {"uv": [2, 0, 4, 16], "texture": "#pane"},
+				"south": {"uv": [0, 0, 2, 16], "texture": "#pane"},
+				"west": {"uv": [2, 0, 4, 16], "texture": "#pane"}
+			}
+		}
+	]
+}

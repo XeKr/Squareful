@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/cactus_flower",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/cactus_flower_3_stem",
+		"particle": "block/cactus_flower_3_stem",
+		"cross": "block/cactus_flower_3"
+	}
+}

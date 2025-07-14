@@ -1,0 +1,93 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/spore_blossom",
+		"flower": "block/spore_blossom",
+		"base": "block/spore_blossom_base",
+		"inner": "block/spore_blossom_inner"
+	},
+	"elements": [
+		{
+			"from": [1, 15.9, 1],
+			"to": [15, 15.9, 15],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [1, 1, 15, 15], "texture": "#base"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#base"}
+			}
+		},
+		{
+			"from": [7.8, 15.7, 0],
+			"to": [18.8, 15.7, 16],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [7.8, 16, 0]},
+			"faces": {
+				"up": {"uv": [0, 5, 16, 16], "rotation": 90, "texture": "#flower"},
+				"down": {"uv": [0, 16, 16, 5], "rotation": 270, "texture": "#flower"}
+			}
+		},
+		{
+			"from": [-2.8, 15.7, 0],
+			"to": [8.2, 15.7, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.2, 16, 0]},
+			"faces": {
+				"up": {"uv": [0, 5, 16, 16], "rotation": 270, "texture": "#flower"},
+				"down": {"uv": [0, 16, 16, 5], "rotation": 90, "texture": "#flower"}
+			}
+		},
+		{
+			"from": [0, 15.7, 7.8],
+			"to": [16, 15.7, 18.8],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [0, 16, 7.8]},
+			"faces": {
+				"up": {"uv": [16, 16, 0, 5], "texture": "#flower"},
+				"down": {"uv": [16, 5, 0, 16], "texture": "#flower"}
+			}
+		},
+		{
+			"from": [0, 15.7, -2.8],
+			"to": [16, 15.7, 8.2],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 16, 8.2]},
+			"faces": {
+				"up": {"uv": [0, 5, 16, 16], "texture": "#flower"},
+				"down": {"uv": [0, 16, 16, 5], "texture": "#flower"}
+			}
+		},
+		{
+			"from": [1, 5, 8],
+			"to": [15, 16, 8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [1, 4, 15, 15], "rotation": 180, "texture": "#inner"},
+				"south": {"uv": [15, 15, 1, 4], "texture": "#inner"}
+			}
+		},
+		{
+			"from": [1, 5, 8],
+			"to": [15, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [1, 4, 15, 15], "rotation": 180, "texture": "#inner"},
+				"south": {"uv": [15, 15, 1, 4], "texture": "#inner"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, -2.75, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, -7]
+		}
+	}
+}

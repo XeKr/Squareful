@@ -1,0 +1,16 @@
+﻿{
+  "pack": {
+    "pack_format": 42,
+    "supported_formats": [16,999],
+    "description":"\u00A761.20.2+ Main Pack/主体包 \n\u00A7eby XeKr at X/Utb/PMC/Bilibili"
+  },
+    "overlays": { 
+       "entries": [
+          {"formats": [ 16, 27 ], "directory": "format_27"},
+          {"formats": [ 16, 42 ], "directory": "format_42"},
+          {"formats": [ 16, 48 ], "directory": "format_48"}
+       ]
+
+    }
+
+}

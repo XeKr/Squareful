@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/redstone_torch_off",
+  "textures": {
+    "particle": "minecraft:block/torch"
+  }
+}

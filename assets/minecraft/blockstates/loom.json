@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "minecraft:block/loom_3dr"
+    },
+    "facing=north": {
+      "model": "minecraft:block/loom_3d"
+    },
+    "facing=south": {
+      "model": "minecraft:block/loom_3drr"
+    },
+    "facing=west": {
+      "model": "minecraft:block/loom_3drrr"
+    }
+  }
+}

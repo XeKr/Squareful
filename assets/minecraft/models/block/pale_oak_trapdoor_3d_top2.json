@@ -1,0 +1,44 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"textures": {
+		"particle": "block/pale_oak_trapdoor3d_flip",
+		"texture": "block/pale_oak_trapdoor3d_flip",
+		"side": "block/pale_oak_door3d_side",
+		"inner": "block/pale_oak_trapdoor3d_inner"
+	},
+	"elements": [
+		{
+			"from": [0, 13, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 13, 0]},
+			"faces": {
+				"north": {"uv": [0, 16, 3, 0], "rotation": 90, "texture": "#side", "cullface": "north"},
+				"east": {"uv": [3, 16, 6, 0], "rotation": 90, "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#side", "cullface": "south"},
+				"west": {"uv": [3, 0, 6, 16], "rotation": 90, "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 16, 16, 0], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [12.01, 16.01, 12.01],
+			"to": [3.99, 12.99, 3.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 12, 3, 4], "rotation": 270, "texture": "#side"},
+				"east": {"uv": [6, 4, 3, 12], "rotation": 90, "texture": "#side"},
+				"south": {"uv": [3, 12, 0, 4], "rotation": 90, "texture": "#side"},
+				"west": {"uv": [6, 12, 3, 4], "rotation": 90, "texture": "#side"}
+			}
+		},
+		{
+			"from": [3.99, 13.99, 3.99],
+			"to": [12.01, 15.01, 12.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14.5, 8]},
+			"faces": {
+				"up": {"uv": [4, 4, 12, 12], "rotation": 270, "texture": "#inner"},
+				"down": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#inner"}
+			}
+		}
+	]
+}

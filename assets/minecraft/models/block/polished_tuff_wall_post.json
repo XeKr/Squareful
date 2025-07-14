@@ -1,0 +1,8 @@
+{
+    "parent": "block/wall_postx",
+    "textures": {
+        "wall_bottom": "block/tuff_smooth",
+        "wall_top": "block/tuff_top",
+        "wall": "block/polished_tuff_post"
+   }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/pale_oak_slab" },
+        "type=top": { "model": "block/pale_oak_slab" , "x": 180, "uvlock": true },
+        "type=double": { "model": "block/double_pale_oak_slab" }
+    }
+}

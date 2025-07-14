@@ -1,0 +1,75 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"textures": {
+		"particle": "block/brewing_stand3d",
+		"stand": "block/brewing_stand3d",
+		"detail": "block/brewing_stand3d_detail"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 8],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#stand"},
+				"south": {"uv": [8, 0, 0, 16], "texture": "#stand"}
+			}
+		},
+		{
+			"from": [9.5, 2, 5.5],
+			"to": [14.5, 7, 10.5],
+			"faces": {
+				"north": {"uv": [0, 2, 5, 7], "texture": "#detail"},
+				"east": {"uv": [0, 2, 5, 7], "texture": "#detail"},
+				"south": {"uv": [0, 2, 5, 7], "texture": "#detail"},
+				"west": {"uv": [0, 2, 5, 7], "texture": "#detail"},
+				"up": {"uv": [0, 2, 5, 7], "texture": "#detail"},
+				"down": {"uv": [0, 2, 5, 7], "texture": "#detail"}
+			}
+		},
+		{
+			"from": [10.5, 7, 6.5],
+			"to": [13.5, 9, 9.5],
+			"faces": {
+				"north": {"uv": [1, 0, 4, 2], "texture": "#detail"},
+				"east": {"uv": [1, 0, 4, 2], "texture": "#detail"},
+				"south": {"uv": [1, 0, 4, 2], "texture": "#detail"},
+				"west": {"uv": [1, 0, 4, 2], "texture": "#detail"},
+				"up": {"uv": [1, 0, 4, 3], "texture": "#detail"},
+				"down": {"uv": [1, 0, 4, 3], "texture": "#detail"}
+			}
+		},
+		{
+			"from": [11, 7.5, 7],
+			"to": [13, 9.5, 9],
+			"faces": {
+				"north": {"uv": [5, 0, 7, 2], "texture": "#detail"},
+				"east": {"uv": [5, 0, 7, 2], "texture": "#detail"},
+				"south": {"uv": [5, 0, 7, 2], "texture": "#detail"},
+				"west": {"uv": [5, 0, 7, 2], "texture": "#detail"},
+				"up": {"uv": [5, 0, 7, 2], "texture": "#detail"},
+				"down": {"uv": [5, 0, 7, 2], "texture": "#detail"}
+			}
+		},
+		{
+			"from": [9.8, 2.2, 5.8],
+			"to": [14.2, 5.8, 10.2],
+			"faces": {
+				"north": {"uv": [5, 3, 10, 7], "texture": "#detail"},
+				"east": {"uv": [5, 3, 10, 7], "texture": "#detail"},
+				"south": {"uv": [5, 3, 10, 7], "texture": "#detail"},
+				"west": {"uv": [5, 3, 10, 7], "texture": "#detail"},
+				"up": {"uv": [5, 2, 10, 7], "texture": "#detail"},
+				"down": {"uv": [5, 2, 10, 7], "texture": "#detail"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [1, 2, 3, 4]
+		}
+	]
+}

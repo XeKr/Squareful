@@ -1,0 +1,65 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"textures": {
+		"particle": "block/crimson_trapdoor3d",
+		"texture": "block/crimson_trapdoor3d",
+		"side": "block/crimson_door3d_side",
+		"inner": "block/crimson_trapdoor3d_inner"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 13],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "texture": "#texture"},
+				"east": {"uv": [6, 16, 3, 0], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 16, 16, 0], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [6, 16, 3, 0], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [3, 16, 0, 0], "rotation": 90, "texture": "#side", "cullface": "up"},
+				"down": {"uv": [0, 16, 3, 0], "rotation": 90, "texture": "#side", "cullface": "down"}
+			}
+		},
+		{
+			"from": [14.01, 5.01, 16.01],
+			"to": [1.99, 1.99, 12.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [3, 0, 0, 3], "rotation": 180, "texture": "#side"},
+				"west": {"uv": [3, 0, 0, 3], "texture": "#side"},
+				"up": {"uv": [3, 0, 0, 12], "rotation": 90, "texture": "#side"},
+				"down": {"uv": [3, 0, 0, 12], "rotation": 270, "texture": "#side"}
+			}
+		},
+		{
+			"from": [14.01, 14.01, 16.01],
+			"to": [1.99, 10.99, 12.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [3, 0, 0, 3], "rotation": 180, "texture": "#side"},
+				"west": {"uv": [3, 0, 0, 3], "texture": "#side"},
+				"up": {"uv": [3, 0, 0, 12], "rotation": 90, "texture": "#side"},
+				"down": {"uv": [3, 0, 0, 12], "rotation": 270, "texture": "#side"}
+			}
+		},
+		{
+			"from": [14.01, 10.01, 16.01],
+			"to": [1.99, 5.99, 12.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [3, 0, 0, 4], "rotation": 180, "texture": "#side"},
+				"west": {"uv": [3, 0, 0, 4], "texture": "#side"},
+				"up": {"uv": [3, 0, 0, 12], "rotation": 90, "texture": "#side"},
+				"down": {"uv": [3, 0, 0, 12], "rotation": 270, "texture": "#side"}
+			}
+		},
+		{
+			"from": [1.99, 1.99, 13.99],
+			"to": [14.01, 14.01, 15.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 14, 14, 2], "texture": "#inner"},
+				"south": {"uv": [2, 14, 14, 2], "texture": "#inner"}
+			}
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"particle": "block/waxed_block",
+		"wax": "block/waxed_block"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [17, 17, 17],
+			"to": [-1, -1, -1],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#wax"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#wax"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#wax"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#wax"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#wax"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#wax"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.55, 0.55, 0.55]
+		}
+	}
+}

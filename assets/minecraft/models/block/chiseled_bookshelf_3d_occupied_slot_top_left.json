@@ -1,0 +1,20 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"face": "block/bookshelf3d_book3"
+	},
+	"elements": [
+		{
+			"from": [11, 9, 1],
+			"to": [15, 15, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 13, 1]},
+			"faces": {
+				"north": {"uv": [0, 10, 4, 16], "texture": "#face"},
+				"east": {"uv": [5, 10, 8, 16], "texture": "#face"},
+				"west": {"uv": [3, 10, 6, 16], "texture": "#face"},
+				"up": {"uv": [8, 6, 11, 10], "rotation": 90, "texture": "#face"}
+			}
+		}
+	]
+}

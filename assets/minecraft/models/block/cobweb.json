@@ -1,0 +1,71 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"cross": "block/cobweb",
+		"particle": "block/cobweb_flat",
+		"flat": "block/cobweb_flat"
+	},
+	"elements": [
+		{
+			"from": [-3, 0, 8],
+			"to": [19, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 0, -3],
+			"to": [8, 16, 19],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [0, 3, 0],
+			"to": [16, 3, 8],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 3, 8]},
+			"faces": {
+				"up": {"uv": [0, 8, 16, 16], "rotation": 180, "texture": "#flat", "cullface": "up"},
+				"down": {"uv": [0, 8, 16, 16], "texture": "#flat", "cullface": "up"}
+			}
+		},
+		{
+			"from": [8, 3, 0],
+			"to": [16, 3, 16],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 3, 8]},
+			"faces": {
+				"up": {"uv": [0, 8, 16, 16], "rotation": 270, "texture": "#flat", "cullface": "up"},
+				"down": {"uv": [0, 8, 16, 16], "rotation": 270, "texture": "#flat", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 3, 8],
+			"to": [16, 3, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 3, 8]},
+			"faces": {
+				"up": {"uv": [0, 8, 16, 16], "texture": "#flat", "cullface": "up"},
+				"down": {"uv": [0, 8, 16, 16], "rotation": 180, "texture": "#flat", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 3, 0],
+			"to": [8, 3, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 3, 8]},
+			"faces": {
+				"up": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#flat", "cullface": "up"},
+				"down": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#flat", "cullface": "up"}
+			}
+		}
+	]
+}

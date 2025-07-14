@@ -1,0 +1,42 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"particle": "block/waxed_block",
+		"wax": "block/waxed_block"
+	},
+	"elements": [
+		{
+			"from": [17, 4, 17],
+			"to": [-1, -1, -1],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#wax"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#wax"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#wax"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#wax"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#wax"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#wax"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [0, 16, 16, 13], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [0, 16, 16, 13], "texture": "#texture", "cullface": "east"},
+				"south": {"uv": [0, 16, 16, 13], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [0, 16, 16, 13], "texture": "#texture", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "down"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.55, 0.55, 0.55]
+		}
+	}
+}

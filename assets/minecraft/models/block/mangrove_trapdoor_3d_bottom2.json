@@ -1,0 +1,52 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"textures": {
+		"inner": "block/mangrove_trapdoor3d_inner",
+		"particle": "block/mangrove_trapdoor3d_flip",
+		"texture": "block/mangrove_trapdoor3d_flip",
+		"side": "block/mangrove_door3d_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [0, 16, 3, 0], "rotation": 90, "texture": "#side", "cullface": "north"},
+				"east": {"uv": [3, 16, 6, 0], "rotation": 90, "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#side", "cullface": "south"},
+				"west": {"uv": [3, 0, 6, 16], "rotation": 90, "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 16, 16, 0], "texture": "#texture"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "down"}
+			}
+		},
+		{
+			"from": [13.01, 3.01, 13.01],
+			"to": [2.99, -0.01, 2.99],
+			"faces": {
+				"north": {"uv": [3, 3, 0, 12], "rotation": 90, "texture": "#side"},
+				"east": {"uv": [3, 3, 0, 12], "rotation": 90, "texture": "#side"},
+				"south": {"uv": [3, 3, 0, 12], "rotation": 90, "texture": "#side"},
+				"west": {"uv": [3, 3, 0, 12], "rotation": 90, "texture": "#side"}
+			}
+		},
+		{
+			"from": [2.99, 0.99, 2.99],
+			"to": [13.01, 2.01, 13.01],
+			"faces": {
+				"up": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#inner"},
+				"down": {"uv": [3, 3, 13, 13], "rotation": 180, "texture": "#inner"}
+			}
+		},
+		{
+			"from": [11.02, 2.02, 11.02],
+			"to": [4.98, 0.98, 4.98],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [1, 5, 2, 11], "rotation": 90, "texture": "#side"},
+				"east": {"uv": [1, 5, 2, 11], "rotation": 270, "texture": "#side"},
+				"south": {"uv": [1, 5, 2, 11], "rotation": 270, "texture": "#side"},
+				"west": {"uv": [1, 5, 2, 11], "rotation": 270, "texture": "#side"}
+			}
+		}
+	]
+}

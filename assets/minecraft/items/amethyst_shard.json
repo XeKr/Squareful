@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {"when": "anon","model": {"type": "minecraft:model","model": "minecraft:item/figurine/anon"}},
+      {"when": "soyo","model": {"type": "minecraft:model","model": "minecraft:item/figurine/soyo"}},
+      {"when": "tomori","model": {"type": "minecraft:model","model": "minecraft:item/figurine/tomori"}},
+      {"when": "taki","model": {"type": "minecraft:model","model": "minecraft:item/figurine/taki"}},
+      {"when": "rana","model": {"type": "minecraft:model","model": "minecraft:item/figurine/rana"}}
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/amethyst_shard"
+    }
+  }
+}

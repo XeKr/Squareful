@@ -1,0 +1,43 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"texture": "block/cherry_planks"
+	},
+	"elements": [
+		{
+			"name": "top bar",
+			"from": [7, 11, 0],
+			"to": [9, 13.95, 9],
+			"faces": {
+				"north": {"uv": [5, 1, 7, 4], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [7, 5, 16, 8], "texture": "#texture"},
+				"west": {"uv": [0, 5, 9, 8], "texture": "#texture"},
+				"up": {"uv": [6, 4.5, 15, 6.5], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [6, 4.5, 15, 6.5], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "lower bar",
+			"from": [7, 5, 0],
+			"to": [9, 8, 9],
+			"faces": {
+				"north": {"uv": [8, 1, 10, 4], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [7, 9, 16, 12], "texture": "#texture"},
+				"west": {"uv": [0, 9, 9, 12], "texture": "#texture"},
+				"up": {"uv": [6, 4.5, 15, 6.5], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [6, 4.5, 15, 6.5], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box4",
+			"from": [7.5, 8, 0],
+			"to": [8.5, 11, 8],
+			"faces": {
+				"north": {"uv": [7, 5, 10, 6], "rotation": 90, "texture": "#texture"},
+				"east": {"uv": [4, 5, 7, 13], "rotation": 90, "texture": "#texture"},
+				"west": {"uv": [4, 5, 7, 13], "rotation": 90, "texture": "#texture"}
+			}
+		}
+	]
+}

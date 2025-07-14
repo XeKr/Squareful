@@ -1,0 +1,24 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/stripped_pale_oak_log",
+		"out": "block/stripped_pale_oak_log",
+		"in": "block/pale_oak_log_top"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [6, 0, 10, 16], "texture": "#out"},
+				"east": {"uv": [6, 0, 10, 16], "texture": "#out"},
+				"south": {"uv": [6, 0, 10, 16], "texture": "#out"},
+				"west": {"uv": [6, 0, 10, 16], "texture": "#out"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#in"},
+				"down": {"uv": [6, 6, 10, 10], "texture": "#in"}
+			}
+		}
+	]
+}

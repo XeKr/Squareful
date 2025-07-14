@@ -1,0 +1,74 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"4": "create:block/diodes/brass_diode_base",
+		"particle": "create:block/diodes/brass_diode_base",
+		"top": "create:block/diodes/pulse_repeater/idle",
+		"torch": "block/redstone_torch_off"
+	},
+	"elements": [
+		{
+			"name": "Top",
+			"from": [5, 2.1, 5],
+			"to": [11, 3.1, 11],
+			"faces": {
+				"north": {"uv": [5, 5, 11, 6], "rotation": 180, "texture": "#top"},
+				"east": {"uv": [10, 5, 11, 11], "rotation": 90, "texture": "#top"},
+				"south": {"uv": [5, 10, 11, 11], "texture": "#top"},
+				"west": {"uv": [5, 11, 6, 5], "rotation": 90, "texture": "#top"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#top"}
+			}
+		},
+		{
+			"name": "circuit",
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 2, 16], "rotation": 270, "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 2], "rotation": 180, "texture": "#4"},
+				"west": {"uv": [14, 0, 16, 16], "rotation": 90, "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#4"}
+			}
+		},
+		{
+			"from": [7.2, 2, 1.2],
+			"to": [8.8, 6.8, 2.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3, 0, 9]},
+			"faces": {
+				"north": {"uv": [7, 4, 9, 10], "texture": "#torch"},
+				"east": {"uv": [7, 4, 9, 10], "texture": "#torch"},
+				"south": {"uv": [7, 4, 9, 10], "texture": "#torch"},
+				"west": {"uv": [7, 4, 9, 10], "texture": "#torch"},
+				"up": {"uv": [7, 4, 9, 6], "texture": "#torch"}
+			}
+		},
+		{
+			"from": [9.2, 7.6, 3.2],
+			"to": [6.8, 5.2, 0.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, -2.8, 12]},
+			"faces": {
+				"north": {"uv": [6, 0, 9, 3], "rotation": 90, "texture": "#torch"},
+				"east": {"uv": [6, 0, 9, 3], "rotation": 90, "texture": "#torch"},
+				"south": {"uv": [6, 0, 9, 3], "texture": "#torch"},
+				"west": {"uv": [6, 0, 9, 3], "texture": "#torch"},
+				"up": {"uv": [6, 0, 9, 3], "texture": "#torch"},
+				"down": {"uv": [6, 0, 9, 3], "rotation": 270, "texture": "#torch"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [270, 0, 0],
+			"translation": [0, 0, -3],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

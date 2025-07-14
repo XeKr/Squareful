@@ -1,0 +1,57 @@
+{
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"texture": "block/pale_oak_planks"
+	},
+	"elements": [
+		{
+			"name": "top bar",
+			"from": [7, 11, 0],
+			"to": [9, 13.95, 9],
+			"faces": {
+				"north": {"uv": [7, 1, 9, 4], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [7, 1, 16, 4], "texture": "#texture"},
+				"west": {"uv": [0, 1, 9, 4], "texture": "#texture"},
+				"up": {"uv": [7, 12.5, 16, 14.5], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [7, 12.5, 16, 14.5], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "lower bar",
+			"from": [7, 5, 0],
+			"to": [9, 8, 9],
+			"faces": {
+				"north": {"uv": [7, 0, 9, 3], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [7, 13, 16, 16], "texture": "#texture"},
+				"west": {"uv": [0, 13, 9, 16], "texture": "#texture"},
+				"up": {"uv": [7, 12.5, 16, 14.5], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [7, 12.5, 16, 14.5], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"from": [7.5, 2, 0.5],
+			"to": [8.5, 15, 2.5],
+			"faces": {
+				"north": {"uv": [0, 0, 13, 1], "rotation": 90, "texture": "#texture"},
+				"east": {"uv": [0, 0, 13, 2], "rotation": 90, "texture": "#texture"},
+				"south": {"uv": [0, 0, 13, 1], "rotation": 90, "texture": "#texture"},
+				"west": {"uv": [0, 0, 13, 2], "rotation": 90, "texture": "#texture"},
+				"up": {"uv": [0, 0, 1, 2], "texture": "#texture"},
+				"down": {"uv": [0, 0, 1, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [7.5, 1, 3.5],
+			"to": [8.5, 16, 5.5],
+			"faces": {
+				"north": {"uv": [0, 0, 15, 1], "rotation": 90, "texture": "#texture"},
+				"east": {"uv": [0, 0, 15, 2], "rotation": 90, "texture": "#texture"},
+				"south": {"uv": [0, 0, 15, 1], "rotation": 90, "texture": "#texture"},
+				"west": {"uv": [0, 0, 15, 2], "rotation": 90, "texture": "#texture"},
+				"up": {"uv": [0, 0, 1, 2], "texture": "#texture"},
+				"down": {"uv": [0, 0, 1, 2], "texture": "#texture"}
+			}
+		}
+	]
+}

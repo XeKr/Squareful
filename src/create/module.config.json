@@ -1,0 +1,9 @@
+{
+  "module_name": "机械动力6.0",
+  "description": "",
+  "support_version": "*",
+  "weight": 0,
+  "breaks": [
+    "create050"
+  ]
+}

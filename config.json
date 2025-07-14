@@ -10,5 +10,14 @@
   "type": "resource",
   "file_mode": true,
   "suggested_version": "1.21.1",
-  "version_modules": {}
+  "version_modules": {
+    "24w44a": {
+      "version": "24w44a",
+      "strict": false
+    },
+    "25w04a": {
+      "version": "25w04a",
+      "strict": false
+    }
+  }
 }

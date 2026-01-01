@@ -2,9 +2,13 @@
   "set_name": "全部模块",
   "description": "启用全部模块（包含额外附加和模组兼容）",
   "modules": [
+    "addon_anvil_column_cap",
+    "addon_lush_foliage",
+    "addon_lush_plants",
+    "addon_naturalize",
+    "addon_tiny_item_frame",
     "ae2",
     "alexscaves",
-    "anvil_column_cap",
     "anvilcraft",
     "anvilcraft_datapack",
     "appleskin",
@@ -24,10 +28,7 @@
     "immersive_weathering",
     "ironchest",
     "lootr",
-    "lush_foliage",
-    "lush_plants",
     "mantle",
-    "naturalize",
     "overflowingbars",
     "quark",
     "randomium",
@@ -35,7 +36,6 @@
     "storagedrawers",
     "tconstruct",
     "thermal",
-    "tiny_item_frame",
     "toms_storage",
     "waystones"
   ]

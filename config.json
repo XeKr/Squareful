@@ -1,8 +1,8 @@
 {
   "pack_name": "Squareful",
   "author": "XeKr",
-  "description": "Squareful Minecraft Resourcepack",
-  "version": "1.0.0",
+  "description": "方纹资源包",
+  "version": "26.0.2",
   "base_path": "./src",
   "sets_path": "./sets",
   "icon": "./icon.png",

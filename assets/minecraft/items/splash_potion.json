@@ -1,0 +1,85 @@
+{
+  "model": {
+	"type": "minecraft:select",
+	"property": "minecraft:component","component": "minecraft:potion_contents",
+	"cases": [
+		{"when": [{"potion":"minecraft:mundane"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/mundane"}},
+		
+		{"when": [{"potion":"minecraft:thick"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/thick"}},
+		
+		{"when": [{"potion":"minecraft:awkward"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/awkward"}},
+		
+		{"when": [{"potion":"minecraft:night_vision"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/night_vision"}},
+		{"when": [{"potion":"minecraft:long_night_vision"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/night_vision_long"}},
+		
+		{"when": [{"potion":"minecraft:invisibility"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/invisibility"}},
+		{"when": [{"potion":"minecraft:long_invisibility"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/invisibility_long"}},
+		
+		{"when": [{"potion":"minecraft:leaping"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/jump_boost"}},
+		{"when": [{"potion":"minecraft:long_leaping"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/jump_boost_long"}},
+		{"when": [{"potion":"minecraft:strong_leaping"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/jump_boost_strong"}},
+		
+		{"when": [{"potion":"minecraft:fire_resistance"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/fire_resistance"}},
+		{"when": [{"potion":"minecraft:long_fire_resistance"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/fire_resistance_long"}},
+		
+		{"when": [{"potion":"minecraft:swiftness"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/speed"}},
+		{"when": [{"potion":"minecraft:long_swiftness"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/speed_long"}},
+		{"when": [{"potion":"minecraft:strong_swiftness"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/speed_strong"}},
+		
+		{"when": [{"potion":"minecraft:slowness"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/slowness"}},
+		{"when": [{"potion":"minecraft:long_slowness"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/slowness_long"}},
+		{"when": [{"potion":"minecraft:strong_slowness"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/slowness_strong"}},
+		
+		{"when": [{"potion":"minecraft:turtle_master"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/turtle_master"}},
+		{"when": [{"potion":"minecraft:long_turtle_master"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/turtle_master_long"}},
+		{"when": [{"potion":"minecraft:strong_turtle_master"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/turtle_master_strong"}},
+		
+		{"when": [{"potion":"minecraft:water_breathing"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/water_breathing"}},
+		{"when": [{"potion":"minecraft:long_water_breathing"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/water_breathing_long"}},
+		
+		{"when": [{"potion":"minecraft:healing"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/instant_health"}},
+		{"when": [{"potion":"minecraft:strong_healing"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/instant_health_strong"}},
+		
+		{"when": [{"potion":"minecraft:harming"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/instant_damage"}},
+		{"when": [{"potion":"minecraft:strong_harming"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/instant_damage_strong"}},
+		
+		{"when": [{"potion":"minecraft:poison"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/poison"}},
+		{"when": [{"potion":"minecraft:long_poison"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/poison_long"}},
+		{"when": [{"potion":"minecraft:strong_poison"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/poison_strong"}},
+		
+		{"when": [{"potion":"minecraft:regeneration"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/regeneration"}},
+		{"when": [{"potion":"minecraft:long_regeneration"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/regeneration_long"}},
+		{"when": [{"potion":"minecraft:strong_regeneration"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/regeneration_strong"}},
+		
+		{"when": [{"potion":"minecraft:strength"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/strength"}},
+		{"when": [{"potion":"minecraft:long_strength"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/strength_long"}},
+		{"when": [{"potion":"minecraft:strong_strength"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/strength_strong"}},
+		
+		{"when": [{"potion":"minecraft:weakness"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/weakness"}},
+		{"when": [{"potion":"minecraft:long_weakness"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/weakness_long"}},
+		
+		{"when": [{"potion":"minecraft:luck"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/luck"}},
+		
+		{"when": [{"potion":"minecraft:slow_falling"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/slow_falling"}},
+		{"when": [{"potion":"minecraft:long_slow_falling"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/slow_falling_long"}},
+		
+		{"when": [{"potion":"minecraft:wind_charged"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/wind_charged"}},
+		
+		{"when": [{"potion":"minecraft:weaving"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/weaving"}},
+		
+		{"when": [{"potion":"minecraft:oozing"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/oozing"}},
+		
+		{"when": [{"potion":"minecraft:infested"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/splash/infested"}}
+	],
+	"fallback": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/splash_potion",
+    "tints": [
+      {
+        "type": "minecraft:potion",
+        "default": -13083194
+      }
+    ]
+  }
+	}
+}

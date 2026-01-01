@@ -1,0 +1,120 @@
+{
+  "model": {
+	"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:flame"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:infinity"}],
+			"on_true": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:mending"}],
+			"on_true": {
+				"type": "minecraft:condition",
+				"property": "minecraft:using_item",
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/bow/imf"},
+				"on_true": {"type": "minecraft:range_dispatch","property": "minecraft:use_duration","scale": 0.05,
+					"entries": [
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/imf_1"},"threshold": 0.65},
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/imf_2"},"threshold": 0.9}
+					],
+					"fallback": {"type": "minecraft:model","model": "minecraft:item/bow/imf_0"}
+				}
+			},
+			"on_false": {
+				"type": "minecraft:condition",
+				"property": "minecraft:using_item",
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/bow/if"},
+				"on_true": {"type": "minecraft:range_dispatch","property": "minecraft:use_duration","scale": 0.05,
+					"entries": [
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/if_1"},"threshold": 0.65},
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/if_2"},"threshold": 0.9}
+					],
+					"fallback": {"type": "minecraft:model","model": "minecraft:item/bow/if_0"}
+				}
+			}
+			},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:mending"}],
+			"on_true": {
+				"type": "minecraft:condition",
+				"property": "minecraft:using_item",
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/bow/mf"},
+				"on_true": {"type": "minecraft:range_dispatch","property": "minecraft:use_duration","scale": 0.05,
+					"entries": [
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/mf_1"},"threshold": 0.65},
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/mf_2"},"threshold": 0.9}
+					],
+					"fallback": {"type": "minecraft:model","model": "minecraft:item/bow/mf_0"}
+				}
+			},
+			"on_false": {
+				"type": "minecraft:condition",
+				"property": "minecraft:using_item",
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/bow/flame"},
+				"on_true": {"type": "minecraft:range_dispatch","property": "minecraft:use_duration","scale": 0.05,
+					"entries": [
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/flame_1"},"threshold": 0.65},
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/flame_2"},"threshold": 0.9}
+					],
+					"fallback": {"type": "minecraft:model","model": "minecraft:item/bow/flame_0"}
+				}
+			}
+			}
+		},
+
+	"on_false": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:infinity"}],
+			"on_true": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:mending"}],
+			"on_true": {
+				"type": "minecraft:condition",
+				"property": "minecraft:using_item",
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/bow/im"},
+				"on_true": {"type": "minecraft:range_dispatch","property": "minecraft:use_duration","scale": 0.05,
+					"entries": [
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/im_1"},"threshold": 0.65},
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/im_2"},"threshold": 0.9}
+					],
+					"fallback": {"type": "minecraft:model","model": "minecraft:item/bow/im_0"}
+				}
+			},
+			"on_false": {
+				"type": "minecraft:condition",
+				"property": "minecraft:using_item",
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/bow/infinity"},
+				"on_true": {"type": "minecraft:range_dispatch","property": "minecraft:use_duration","scale": 0.05,
+					"entries": [
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/infinity_1"},"threshold": 0.65},
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/infinity_2"},"threshold": 0.9}
+					],
+					"fallback": {"type": "minecraft:model","model": "minecraft:item/bow/infinity_0"}
+				}
+			}
+			},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:mending"}],
+			"on_true": {
+				"type": "minecraft:condition",
+				"property": "minecraft:using_item",
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/bow/mending"},
+				"on_true": {"type": "minecraft:range_dispatch","property": "minecraft:use_duration","scale": 0.05,
+					"entries": [
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/mending_1"},"threshold": 0.65},
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow/mending_2"},"threshold": 0.9}
+					],
+					"fallback": {"type": "minecraft:model","model": "minecraft:item/bow/mending_0"}
+				}
+			},
+			"on_false": {
+				"type": "minecraft:condition",
+				"property": "minecraft:using_item",
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/bow"},
+				"on_true": {"type": "minecraft:range_dispatch","property": "minecraft:use_duration","scale": 0.05,
+					"entries": [
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow_pulling_1"},"threshold": 0.65},
+						{"model": {"type": "minecraft:model","model": "minecraft:item/bow_pulling_2"},"threshold": 0.9}
+					],
+					"fallback": {"type": "minecraft:model","model": "minecraft:item/bow_pulling_0"}
+				}
+			}
+			}
+		}
+	}
+}

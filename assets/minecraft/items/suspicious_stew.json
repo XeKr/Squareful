@@ -1,8 +1,7 @@
 {
   "model": {
 	"type": "minecraft:select",
-	"property": "minecraft:component",
-	"component": "minecraft:suspicious_stew_effects",
+	"property": "minecraft:component","component": "minecraft:suspicious_stew_effects",
 	"cases": [
 	{"when": [{"duration":7,"id":"minecraft:saturation"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/suspicious_stew/saturation"}},
 	{"when": [{"duration":220,"id":"minecraft:blindness"}],"model": {"type": "minecraft:model","model": "minecraft:item/potions/suspicious_stew/blindness"}},

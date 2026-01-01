@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {"when": "dinnerbone","model": {"type": "minecraft:model","model": "minecraft:item/name_tag/dinnerbone"}},
+      {"when": "grumm","model": {"type": "minecraft:model","model": "minecraft:item/name_tag/dinnerbone"}},
+      {"when": "jeb_","model": {"type": "minecraft:model","model": "minecraft:item/name_tag/jeb_"}},
+      {"when": "johnny","model": {"type": "minecraft:model","model": "minecraft:item/name_tag/johnny"}},
+      {"when": "toast","model": {"type": "minecraft:model","model": "minecraft:item/name_tag/toast"}}
+    ],
+    "fallback": {"type": "minecraft:model","model": "minecraft:item/name_tag"}
+	}
+}

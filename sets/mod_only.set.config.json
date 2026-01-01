@@ -1,6 +1,6 @@
 {
   "set_name": "全部模组兼容",
-  "description": "启用全部模组兼容",
+  "description": "启用全部模组兼容（不含额外附加）",
   "modules": [
     "ae2",
     "alexscaves",

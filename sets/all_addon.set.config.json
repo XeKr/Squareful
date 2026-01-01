@@ -1,6 +1,6 @@
 {
   "set_name": "全部模块",
-  "description": "启用全部模块",
+  "description": "启用全部模块（包含额外附加和模组兼容）",
   "modules": [
     "ae2",
     "alexscaves",

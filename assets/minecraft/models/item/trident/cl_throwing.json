@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/trident/throwing",
+    "textures": {
+        "layer0": "minecraft:item/trident/cl_in_hand"
+    }
+}

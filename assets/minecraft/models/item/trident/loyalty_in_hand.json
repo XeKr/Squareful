@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/trident/in_hand",
+    "textures": {
+        "layer0": "minecraft:item/trident/loyalty_in_hand"
+    }
+}

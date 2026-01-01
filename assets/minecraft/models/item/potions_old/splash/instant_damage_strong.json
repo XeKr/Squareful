@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/splash_potion_overlay_x",
+        "layer1": "item/potions/splash/instant_damage_strong"
+    }
+}

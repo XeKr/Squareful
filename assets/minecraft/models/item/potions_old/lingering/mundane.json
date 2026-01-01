@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/lingering_potion_overlay_x",
+        "layer1": "item/potions/lingering/mundane"
+    }
+}

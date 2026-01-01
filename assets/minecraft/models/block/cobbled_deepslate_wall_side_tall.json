@@ -3,6 +3,6 @@
   "textures": {
     "wall": "minecraft:block/cobbled_deepslate",
     "end": "minecraft:block/deepslate_end",
-    "top": "minecraft:block/cobbled_deepslate"
+    "top": "minecraft:block/cobbled_deepslate_top"
   }
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/spear_in_hand",
+    "textures": {
+        "layer0": "minecraft:item/basic_tools/diamond_spear/smite_in_hand"
+    }
+}

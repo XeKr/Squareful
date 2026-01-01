@@ -57,9 +57,50 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/diamond_spear_in_hand"
-    },
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {"when": "diamond spear prime","model": {"type": "minecraft:model","model": "minecraft:item/diamond_spear_in_hand"}},
+      {"when": "原初钻石矛","model": {"type": "minecraft:model","model": "minecraft:item/diamond_spear_in_hand"}}
+    ],
+    "fallback": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:looting"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_spear/lo_sh_in_hand"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_spear/lo_sm_in_hand"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_spear/lo_ba_in_hand"},
+			"on_false": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_spear/looting_in_hand"}
+			}
+			}
+		},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_spear/sharpness_in_hand"},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_spear/smite_in_hand"},
+
+	"on_false": {
+	
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_spear/bane_of_arthropods_in_hand"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/diamond_spear_in_hand"}
+			}
+	}
+	}
+	}
+	},
     "property": "minecraft:display_context"
   },
   "swap_animation_scale": 1.95

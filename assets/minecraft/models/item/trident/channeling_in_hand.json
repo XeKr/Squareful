@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/trident/in_hand",
+    "textures": {
+        "layer0": "minecraft:item/trident/channeling_in_hand"
+    }
+}

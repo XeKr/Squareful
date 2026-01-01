@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "minecraft:item/basic_tools/diamond_spear/lo_sh"
-  }
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/basic_tools/diamond_spear/lo_sh"
+    }
 }

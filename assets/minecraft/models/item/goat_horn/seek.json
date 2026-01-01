@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/goat_horn",
+    "textures": {
+        "layer0": "minecraft:item/goat_horn/seek"
+    }
+}

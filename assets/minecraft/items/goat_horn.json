@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+    "type": "minecraft:select",
+    "property": "minecraft:component","component": "minecraft:instrument",
+	"cases": [
+	{"when": "ponder_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/ponder"}},
+	{"when": "sing_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/sing"}},
+	{"when": "seek_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/seek"}},
+	{"when": "feel_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/feel"}},
+	{"when": "admire_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/admire"}},
+	{"when": "call_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/call"}},
+	{"when": "yearn_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/yearn"}},
+	{"when": "dream_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/dream"}}
+	],
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/goat_horn"
+    }
+  },
+    "on_true": {
+    "type": "minecraft:select",
+    "property": "minecraft:component","component": "minecraft:instrument",
+	"cases": [
+	{"when": "ponder_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/ponder_tooting"}},
+	{"when": "sing_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/sing_tooting"}},
+	{"when": "seek_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/seek_tooting"}},
+	{"when": "feel_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/feel_tooting"}},
+	{"when": "admire_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/admire_tooting"}},
+	{"when": "call_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/call_tooting"}},
+	{"when": "yearn_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/yearn_tooting"}},
+	{"when": "dream_goat_horn","model": {"type": "minecraft:model","model": "minecraft:item/goat_horn/dream_tooting"}}
+	],
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/goat_horn"
+    }
+  },
+    "property": "minecraft:using_item"
+  }
+}

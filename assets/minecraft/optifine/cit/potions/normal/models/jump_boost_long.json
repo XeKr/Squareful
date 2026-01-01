@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/potion_overlay_x",
-        "layer1": "potions/normal/jump_boost_long"
-    }
-}

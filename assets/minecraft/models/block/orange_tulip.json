@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "minecraft:block/orange_tulip_ground"
+    "cross": "minecraft:block/orange_tulip"
   }
 }

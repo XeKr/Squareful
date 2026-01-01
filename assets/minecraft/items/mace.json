@@ -4,32 +4,37 @@
     "property": "minecraft:component",
     "component": "minecraft:custom_name",
     "cases": [
-      {"when": "jingubang","model": {"type": "minecraft:model","model": "minecraft:item/mace/jingubang"}},
-      {"when": "金箍棒","model": {"type": "minecraft:model","model": "minecraft:item/mace/jingubang"}},
-      {"when": "mjolnir","model": {"type": "minecraft:model","model": "minecraft:item/mace/mjolnir"}},
-      {"when": "雷神之锤","model": {"type": "minecraft:model","model": "minecraft:item/mace/mjolnir"}},
-      {"when": "crowbar","model": {"type": "minecraft:model","model": "minecraft:item/mace/crowbar"}},
-      {"when": "撬棍","model": {"type": "minecraft:model","model": "minecraft:item/mace/crowbar"}},
+      {"when": "jingubang","model": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/jingubang"}},
+      {"when": "金箍棒","model": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/jingubang"}},
+      {"when": "mjolnir","model": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/mjolnir"}},
+      {"when": "雷神之锤","model": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/mjolnir"}},
+      {"when": "crowbar","model": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/crowbar"}},
+      {"when": "撬棍","model": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/crowbar"}},
       {"when": "anvil hammer","model": {		
 			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
-				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/ember_anvil_hammer"},
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/ember_anvil_hammer"},
 				"on_false": {		
 			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:unbreaking"}],
-				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/royal_anvil_hammer"},
-				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/anvil_hammer"}
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/royal_anvil_hammer"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/anvil_hammer"}
 			}}},
       {"when": "铁砧锤","model": {		
 			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
-				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/ember_anvil_hammer"},
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/ember_anvil_hammer"},
 				"on_false": {		
 			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:unbreaking"}],
-				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/royal_anvil_hammer"},
-				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/anvil_hammer"}
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/royal_anvil_hammer"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/anvil_hammer"}
 			}}},
-      {"when": "plunger","model": {"type": "minecraft:model","model": "minecraft:item/mace/plunger"}},
-      {"when": "搋子","model": {"type": "minecraft:model","model": "minecraft:item/mace/plunger"}}
+      {"when": "plunger","model": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/plunger"}},
+      {"when": "搋子","model": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/plunger"}}
     ],
     "fallback": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
 
     "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
 		"on_true": {
@@ -110,6 +115,95 @@
 				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace"}
 			}
 	}
+  }
+  }
+  }
+  },
+        "when": ["gui"]
+      }
+    ],
+    "fallback": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:wind_burst"}],
+			"on_true": {
+			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/smite_w_f"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/smite_w"}
+			},
+			"on_false": {		
+			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/smite_f"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/smite"}
+			}
+		},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:wind_burst"}],
+			"on_true": {
+			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/bane_of_arthropods_w_f"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/bane_of_arthropods_w"}
+			},
+			"on_false": {		
+			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/bane_of_arthropods_f"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/bane_of_arthropods"}
+			}
+		},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:density"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:wind_burst"}],
+			"on_true": {
+			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/density_w_f"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/density_w"}
+			},
+			"on_false": {		
+			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/density_f"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/density"}
+			}
+		},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:breach"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:wind_burst"}],
+			"on_true": {
+			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/breach_w_f"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/breach_w"}
+			},
+			"on_false": {		
+			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/breach_f"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/breach"}
+			}
+		},
+
+	"on_false": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:wind_burst"}],
+			"on_true": {
+			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/wind_burst_f"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/wind_burst"}
+			},
+			"on_false": {		
+			"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fire_aspect"}],
+				"on_true": {"type": "minecraft:model","model": "minecraft:item/mace/in_hand/fire_aspect"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/mace_in_hand"}
+			}
+	}
+  }
   }
   }
   }

@@ -1,7 +1,0 @@
-{
-	"parent": "item/mace/anvil_hammer",
-	"textures": {
-		"0": "item/mace/ember_anvil_hammer",
-		"particle": "item/mace/ember_anvil_hammer"
-	}
-}

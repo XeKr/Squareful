@@ -1,5 +1,4 @@
 {
-	"format_version": "1.21.6",
 	"credit": "Made by XeKr with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
@@ -22,13 +21,13 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [75, 0, 0],
-			"translation": [0.25, 2, 4],
+			"rotation": [-180, 57.25, -180],
+			"translation": [0.25, 2, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [75, 0, 0],
-			"translation": [0.25, 2, 4],
+			"rotation": [-180, 57.25, -180],
+			"translation": [0.25, 2, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_righthand": {
@@ -56,6 +55,11 @@
 			"rotation": [-90, 0, 0],
 			"translation": [0, 0, -8],
 			"scale": [1.25, 1.25, 1.25]
-		}
+		},
+        "on_shelf": {
+          "rotation": [ 0, 180, 0 ],
+          "translation": [ 0, 0, 0 ],
+          "scale": [ 1, 1, 1 ]
+        }
 	}
 }

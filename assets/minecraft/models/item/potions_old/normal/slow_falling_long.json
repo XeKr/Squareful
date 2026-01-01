@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion_overlay_x",
+        "layer1": "item/potions/normal/slow_falling_long"
+    }
+}

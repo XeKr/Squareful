@@ -5,7 +5,23 @@
     "component": "minecraft:custom_name",
     "cases": [
       {"when": "straw hat","model": {"type": "minecraft:model","model": "minecraft:item/hat/straw_hat"}},
-      {"when": "草帽","model": {"type": "minecraft:model","model": "minecraft:item/hat/straw_hat"}}
+      {"when": "草帽","model": {"type": "minecraft:model","model": "minecraft:item/hat/straw_hat"}},
+      {"when": "cone","model": {"type": "minecraft:model","model": "minecraft:item/hat/cone"}},
+      {"when": "路障","model": {"type": "minecraft:model","model": "minecraft:item/hat/cone"}},
+      {"when": "bucket","model": {"type": "minecraft:model","model": "minecraft:item/hat/bucket"}},
+      {"when": "铁桶","model": {"type": "minecraft:model","model": "minecraft:item/hat/bucket"}},
+      {"when": "witch hat","model": {"type": "minecraft:model","model": "minecraft:item/hat/witch_hat"}},
+      {"when": "女巫帽","model": {"type": "minecraft:model","model": "minecraft:item/hat/witch_hat"}},
+      {"when": "slime","model": {"type": "minecraft:model","model": "minecraft:item/hat/slime"}},
+      {"when": "史莱姆","model": {"type": "minecraft:model","model": "minecraft:item/hat/slime"}},
+      {"when": "space helmet","model": {"type": "minecraft:model","model": "minecraft:item/hat/space_helmet"}},
+      {"when": "太空头盔","model": {"type": "minecraft:model","model": "minecraft:item/hat/space_helmet"}},
+      {"when": "spider","model": {"type": "minecraft:model","model": "minecraft:item/hat/spider"}},
+      {"when": "蜘蛛","model": {"type": "minecraft:model","model": "minecraft:item/hat/spider"}},
+      {"when": "squid","model": {"type": "minecraft:model","model": "minecraft:item/hat/squid"}},
+      {"when": "鱿鱼","model": {"type": "minecraft:model","model": "minecraft:item/hat/squid"}},
+      {"when": "mooshroom","model": {"type": "minecraft:model","model": "minecraft:item/hat/mooshroom"}},
+      {"when": "哞菇","model": {"type": "minecraft:model","model": "minecraft:item/hat/mooshroom"}}
     ],
     "fallback": {
     "type": "minecraft:model",

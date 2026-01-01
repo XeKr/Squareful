@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/trident/in_hand",
+    "textures": {
+        "layer0": "minecraft:item/trident/riptide_in_hand"
+    }
+}

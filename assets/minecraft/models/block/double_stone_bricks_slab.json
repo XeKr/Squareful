@@ -1,5 +1,5 @@
 {
-    "parent": "block/cube_column_end_small",
+    "parent": "block/cube_column_end",
     "textures": {
         "top": "block/stone_bricks_top",
         "side": "block/stone_bricks_side",

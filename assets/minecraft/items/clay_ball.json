@@ -87,6 +87,11 @@
       {"when": "zombie_horse","model": {"type": "minecraft:model","model": "minecraft:item/zombie_horse_spawn_egg"}},
       {"when": "zombie_villager","model": {"type": "minecraft:model","model": "minecraft:item/zombie_villager_spawn_egg"}},
       {"when": "zombified_piglin","model": {"type": "minecraft:model","model": "minecraft:item/zombified_piglin_spawn_egg"}},
+      {"when": "copper_golem","model": {"type": "minecraft:model","model": "minecraft:item/copper_golem_spawn_egg"}},
+      {"when": "camel_husk","model": {"type": "minecraft:model","model": "minecraft:item/camel_husk_spawn_egg"}},
+      {"when": "parched","model": {"type": "minecraft:model","model": "minecraft:item/parched_spawn_egg"}},
+      {"when": "nautilus","model": {"type": "minecraft:model","model": "minecraft:item/nautilus_spawn_egg"}},
+      {"when": "zombie_nautilus","model": {"type": "minecraft:model","model": "minecraft:item/zombie_nautilus_spawn_egg"}},
       {"when": "XeKr","model": {"type": "minecraft:model","model": "minecraft:item/xekr_spawn_egg"}}
     ],
     "fallback": {

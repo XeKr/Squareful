@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/nautilus_spawn_egg",
+	"textures": {
+		"0": "item/spawn_egg/zombie_nautilus"
+	}
+}

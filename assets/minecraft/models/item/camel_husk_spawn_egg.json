@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/camel_spawn_egg",
+	"textures": {
+		"0": "item/spawn_egg/camel_husk"
+	}
+}

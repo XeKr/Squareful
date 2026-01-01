@@ -1,0 +1,8 @@
+{
+	"parent": "item/waxed_copper_golem_statue_running",
+	"textures": {
+		"body": "block/special/oxidized_copper_golem",
+		"wax": "block/waxed_block",
+		"particle": "block/oxidized_copper_block"
+	}
+}

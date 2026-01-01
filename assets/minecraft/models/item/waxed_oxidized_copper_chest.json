@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:item/waxed_copper_chest",
+	"texture_size": [64, 64],
+	"textures": {
+		"particle": "block/special/oxidized_copper_chest",
+		"body": "block/special/oxidized_copper_chest",
+		"wax": "block/waxed_block"
+	}
+}

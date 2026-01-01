@@ -1,0 +1,66 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {"when": "netherite spear prime","model": {"type": "minecraft:model","model": "minecraft:item/netherite_spear"}},
+      {"when": "原初下界合金矛","model": {"type": "minecraft:model","model": "minecraft:item/netherite_spear"}}
+    ],
+    "fallback": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:looting"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_spear/lo_sh"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_spear/lo_sm"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_spear/lo_ba"},
+			"on_false": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_spear/looting"}
+			}
+			}
+		},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_spear/sharpness"},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_spear/smite"},
+
+	"on_false": {
+	
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_spear/bane_of_arthropods"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/netherite_spear"}
+			}
+	}
+	}
+	}
+	},
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+  },
+  "swap_animation_scale": 1.95
+}

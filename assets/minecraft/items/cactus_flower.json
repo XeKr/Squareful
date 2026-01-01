@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:block/cactus_flower"
+    "model": "minecraft:item/cactus_flower"
   }
 }

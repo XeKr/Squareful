@@ -1,0 +1,65 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {"when": "netherite axe prime","model": {"type": "minecraft:model","model": "minecraft:item/netherite_axe"}},
+      {"when": "原初下界合金斧","model": {"type": "minecraft:model","model": "minecraft:item/netherite_axe"}}
+    ],
+    "fallback": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:silk_touch"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_axe/si_sh"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_axe/si_sm"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_axe/si_ba"},
+			"on_false": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_axe/silk_touch"}
+			}
+			}
+		},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fortune"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_axe/fo_sh"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_axe/fo_sm"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_axe/fo_ba"},
+			"on_false": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_axe/fortune"}
+			}
+			}
+		},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_axe/sharpness"},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_axe/smite"},
+
+	"on_false": {
+	
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_axe/bane_of_arthropods"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/netherite_axe"}
+			}
+	}
+	}
+	}
+	}
+	}
+}

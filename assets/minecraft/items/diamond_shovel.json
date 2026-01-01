@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {"when": "diamond shovel prime","model": {"type": "minecraft:model","model": "minecraft:item/diamond_shovel"}},
+      {"when": "原初钻石锹","model": {"type": "minecraft:model","model": "minecraft:item/diamond_shovel"}}
+    ],
+    "fallback": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:silk_touch"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_shovel/silk_touch"},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fortune"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_shovel/fortune"},
+
+	"on_false": {"type": "minecraft:model","model": "minecraft:item/diamond_shovel"}
+	}
+	}
+	}
+}

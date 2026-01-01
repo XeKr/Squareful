@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {"when": "netherite pickaxe prime","model": {"type": "minecraft:model","model": "minecraft:item/netherite_pickaxe"}},
+      {"when": "原初下界合金镐","model": {"type": "minecraft:model","model": "minecraft:item/netherite_pickaxe"}}
+    ],
+    "fallback": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:silk_touch"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_pickaxe/silk_touch"},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fortune"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/netherite_pickaxe/fortune"},
+
+	"on_false": {"type": "minecraft:model","model": "minecraft:item/netherite_pickaxe"}
+	}
+	}
+	}
+}

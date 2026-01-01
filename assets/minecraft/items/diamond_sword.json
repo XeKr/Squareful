@@ -1,0 +1,47 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {"when": "diamond sword prime","model": {"type": "minecraft:model","model": "minecraft:item/diamond_sword"}},
+      {"when": "原初钻石剑","model": {"type": "minecraft:model","model": "minecraft:item/diamond_sword"}}
+    ],
+    "fallback": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:looting"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_sword/lo_sh"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_sword/lo_sm"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_sword/lo_ba"},
+			"on_false": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_sword/looting"}
+			}
+			}
+		},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_sword/sharpness"},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_sword/smite"},
+
+	"on_false": {
+	
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_sword/bane_of_arthropods"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/diamond_sword"}
+			}
+	}
+	}
+	}
+	}
+}

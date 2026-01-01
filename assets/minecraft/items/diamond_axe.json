@@ -1,0 +1,65 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {"when": "diamond axe prime","model": {"type": "minecraft:model","model": "minecraft:item/diamond_axe"}},
+      {"when": "原初钻石斧","model": {"type": "minecraft:model","model": "minecraft:item/diamond_axe"}}
+    ],
+    "fallback": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:silk_touch"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_axe/si_sh"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_axe/si_sm"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_axe/si_ba"},
+			"on_false": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_axe/silk_touch"}
+			}
+			}
+		},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:fortune"}],
+		"on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_axe/fo_sh"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_axe/fo_sm"},
+			"on_false": {		
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+			"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_axe/fo_ba"},
+			"on_false": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_axe/fortune"}
+			}
+			}
+		},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:sharpness"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_axe/sharpness"},
+
+	"on_false": {
+
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:smite"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_axe/smite"},
+
+	"on_false": {
+	
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:bane_of_arthropods"}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/basic_tools/diamond_axe/bane_of_arthropods"},
+				"on_false": {"type": "minecraft:model","model": "minecraft:item/diamond_axe"}
+			}
+	}
+	}
+	}
+	}
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "module_name": "机械动力",
+  "support_version": "*",
+  "weight": 0,
+  "breaks": [
+    "create"
+  ]
+}

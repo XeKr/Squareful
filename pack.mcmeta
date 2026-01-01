@@ -10,7 +10,5 @@
           {"formats": [ 16, 42 ], "directory": "format_42"},
           {"formats": [ 16, 48 ], "directory": "format_48"}
        ]
-
     }
-
 }

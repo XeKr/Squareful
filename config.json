@@ -1,0 +1,34 @@
+{
+  "pack_name": "Squareful",
+  "author": "XeKr",
+  "description": "Squareful Minecraft Resourcepack",
+  "version": "1.0.0",
+  "base_path": "./src",
+  "sets_path": "./sets",
+  "icon": "./icon.png",
+  "main_module": "main",
+  "version_reverse": true,
+  "version_modules": {
+    "format_8": {
+      "version": "1.18"
+    },
+    "format_9": {
+      "version": "1.19.2"
+    },
+    "format_12": {
+      "version": "1.19.3"
+    },
+    "format_15": {
+      "version": "1.20.1"
+    },
+    "format_27": {
+      "version": "24w07a"
+    },
+    "format_42": {
+      "version": "1.21.3"
+    },
+    "format_48": {
+      "version": "25w03a"
+    }
+  }
+}

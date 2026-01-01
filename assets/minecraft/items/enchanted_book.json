@@ -877,11 +877,34 @@
 		"model": "minecraft:item/enchanted_book/wind_burst_over"
     }}}
     },
+
+    "on_false": {
+    "type": "minecraft:condition","property": "minecraft:component","predicate": "stored_enchantments",
+    "value": [{"enchantments": "minecraft:lunge"}],
+    "on_true": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "stored_enchantments",
+		"value": [{"enchantments": "minecraft:lunge","levels":1}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/enchanted_book/lunge"},
+	    "on_false": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "stored_enchantments",
+		"value": [{"enchantments": "minecraft:lunge","levels":2}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/enchanted_book/lunge_2"},
+	    "on_false": {
+		"type": "minecraft:condition","property": "minecraft:component","predicate": "stored_enchantments",
+		"value": [{"enchantments": "minecraft:lunge","levels":3}],
+		"on_true": {"type": "minecraft:model","model": "minecraft:item/enchanted_book/lunge_max"},
+	    "on_false": {		
+		"type": "minecraft:model",
+		"model": "minecraft:item/enchanted_book/lunge_over"
+    }}}
+    },
+
 	
     "on_false": {
       "type": "minecraft:model",
       "model": "minecraft:item/enchanted_book"
     
+    }
     }
     }
     }

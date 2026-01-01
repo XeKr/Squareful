@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": ["gui","ground","fixed","on_shelf"],
+		"model": {"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:channeling"}],
+				"on_true": {"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:loyalty"}],
+					"on_true": {"type": "minecraft:model","model": "minecraft:item/trident/cl"},
+					"on_false":{"type": "minecraft:model","model": "minecraft:item/trident/channeling"}
+				},
+				"on_false":{"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:loyalty"}],
+					"on_true": {"type": "minecraft:model","model": "minecraft:item/trident/loyalty"},
+					"on_false":{"type": "minecraft:condition","property": "minecraft:component","predicate": "enchantments","value": [{"enchantments": "minecraft:riptide"}],
+						"on_true": {"type": "minecraft:model","model": "minecraft:item/trident/riptide"},
+						"on_false":{"type": "minecraft:model","model": "minecraft:item/trident"}
+					}
+				}
+		}
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "on_false": {
+        "type": "minecraft:special",
+        "base": "minecraft:item/trident_in_hand",
+        "model": {
+          "type": "minecraft:trident"
+        }
+      },
+      "on_true": {
+        "type": "minecraft:special",
+        "base": "minecraft:item/trident_throwing",
+        "model": {
+          "type": "minecraft:trident"
+        }
+      },
+      "property": "minecraft:using_item"
+    },
+    "property": "minecraft:display_context"
+  }
+}

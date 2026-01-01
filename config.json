@@ -7,6 +7,9 @@
   "sets_path": "./sets",
   "icon": "./icon.png",
   "main_module": "main",
+  "suggested_version": "1.21.11",
+  "type": "resource",
+  "file_mode": true,
   "version_reverse": true,
   "version_modules": {
     "format_48": {

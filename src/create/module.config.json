@@ -1,8 +1,0 @@
-{
-  "module_name": "模组兼容：机械动力（6.0+）",
-  "support_version": "*",
-  "weight": 0,
-  "breaks": [
-    "create_050"
-  ]
-}

@@ -1,0 +1,6 @@
+{
+  "module_name": "模组兼容",
+  "support_version": "*",
+  "weight": 0,
+  "breaks": []
+}

@@ -1,7 +1,0 @@
-{
-	"parent": "block/leaves_3d2",
-	"textures": {
-		"out": "block/dying_oak_leaves_3d",
-		"in": "block/dying_oak_leaves_3d2"
-	}
-}

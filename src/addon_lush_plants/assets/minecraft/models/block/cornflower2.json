@@ -1,8 +1,0 @@
-{
-	"credit": "Made by XeKr with Blockbench",
-	"parent": "minecraft:block/dandelion2",
-	"textures": {
-		"0": "block/cornflower_3d",
-		"particle": "block/cornflower_3d"
-	}
-}

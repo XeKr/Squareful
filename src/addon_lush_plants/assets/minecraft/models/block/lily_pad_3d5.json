@@ -1,7 +1,0 @@
-{
-    "ambientocclusion": false,
-	"parent": "block/lily_pad_3d1",
-	"textures": {
-		"1": "block/lily_pad_3d3"
-	}
-}

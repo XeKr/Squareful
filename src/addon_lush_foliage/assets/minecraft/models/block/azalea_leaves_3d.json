@@ -1,7 +1,0 @@
-{
-	"parent": "block/leaves_3d",
-	"textures": {
-		"out": "block/azalea_leaves_3d",
-		"in": "block/azalea_leaves_3d2"
-	}
-}

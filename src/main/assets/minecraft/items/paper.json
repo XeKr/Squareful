@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {"when": "tips","model": {"type": "minecraft:model","model": "minecraft:item/tips/tips"}},
+      {"when": "potions","model": {"type": "minecraft:model","model": "minecraft:item/tips/potions"}},
+      {"when": "hats","model": {"type": "minecraft:model","model": "minecraft:item/tips/hats"}},
+      {"when": "tools","model": {"type": "minecraft:model","model": "minecraft:item/tips/tools"}},
+      {"when": "dolls","model": {"type": "minecraft:model","model": "minecraft:item/tips/dolls"}}
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    }
+  }
+}

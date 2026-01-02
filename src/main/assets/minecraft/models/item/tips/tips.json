@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by XeKr with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/tips/tips"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"translation": [-2, 7.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"translation": [-2, 7.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"scale": [3.75, 3.75, 1]
+		}
+	}
+}

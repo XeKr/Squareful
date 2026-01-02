@@ -1,0 +1,95 @@
+Extended License Terms
+
+These Extended License Terms (hereinafter "these Terms") serve as a supplement and extension to the scope of the license for "Squareful" (hereinafter the "Main Resource Pack"), which is released under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0, hereinafter the "Original Agreement").
+
+The issuer of these Terms is [Your Name or Organization Name] (hereinafter the "Licensor"). Any user (hereinafter the "Licensee") who, while using the Main Resource Pack based on the Original Agreement, wishes to exercise the additional rights granted under these Terms, must simultaneously comply with all provisions of both the Original Agreement and these Terms. In the event of any conflict between the Original Agreement and these Terms, these Terms shall prevail.
+
+Article 1: Definitions
+
+1. Extension Pack: Refers to a collection of additional resource files created under these Terms that contains adaptations of some or all materials from the Main Resource Pack, and which cannot function independently of the Main Resource Pack.
+
+2. Adaptation: In these Terms, this specifically and exclusively refers to the following two forms:
+
+    Recoloring: Using the original texture files provided by the Licensor as templates to modify only their color configurations without altering their basic structure, pixel layout, or core artistic style features.
+
+    Style Imitation: Creating new textures for content not covered by the Main Resource Pack in the vanilla game (such as new items, mobs, or blocks) under the premise of clearly identifying and following the overall artistic style, design language, and pixel art techniques of the Main Resource Pack. Such newly created textures must maintain a high degree of visual consistency and harmony with the Main Resource Pack.
+
+3. Independent Use: Refers to separating, extracting, repackaging, or any other method used to enable the Extension Pack or its contents to function, be displayed, or operate normally within Minecraft or any other environment without the simultaneous installation and use of the Main Resource Pack.
+
+Article 2: Additional Rights Granted
+
+Subject to strict compliance with the Original Agreement (particularly the terms regarding Attribution, Non-Commercial, and No-Derivatives) and all conditions of these Terms, the Licensor hereby grants the Licensee a worldwide, royalty-free, non-sublicensable, non-exclusive, limited license:
+
+The Licensee may, based on the content of the Main Resource Pack, perform "Adaptations" as defined in Article 1 of these Terms, and publish, distribute, or make available to the public the resulting work in the form of an "Extension Pack."
+
+Article 3: Core Restrictions
+
+When exercising the rights granted in Article 2, the Licensee must simultaneously satisfy all of the following conditions:
+
+1. Dependency Requirement: The Extension Pack must be explicitly declared, designed, and technically implemented to be used exclusively alongside the Main Resource Pack. Under no circumstances shall an Extension Pack be created, provided, or interpreted as a standalone resource pack.
+
+2. Attribution Requirement:
+
+    The following information must be prominently displayed on the Extension Pack's distribution page, description files, related videos, graphics, and any other public platforms:
+
+        The name and link of the Main Resource Pack.
+
+        The attribution of the original author (i.e., the Licensor’s information).
+
+        A clear statement that the Extension Pack is released based on the Original Agreement and these Terms.
+
+    Within the Extension Pack, it is recommended to repeat the above attribution information in a text file (e.g., credits.txt or README.txt).
+
+3. Non-Commercial Requirement: Strict adherence to the "Non-Commercial" provisions of the Original Agreement is required. The creation, distribution, and provision of any Extension Pack must not be for commercial purposes or substantially involve commercial activities.
+
+4. Prohibition of Detached Adaptation: Any modification of the Main Resource Pack's content that exceeds the scope of "Adaptation" defined in Article 1 is prohibited, including but not limited to: altering the core art style, using materials to build independent new resource packs, or mixing them with other resource packs to create derivative works capable of Independent Use.
+
+5. Quality and Reputation: The content of the Adaptation should maintain a certain standard of quality and must not damage the reputation of the Main Resource Pack or the Licensor.
+
+Article 4: Disclaimers and Warranties
+
+1. The Licensor provides the Main Resource Pack and these License Terms on an "as-is" basis, without any express or implied warranties.
+
+2. The Licensee understands and agrees that the Licensor reserves the right to modify or terminate these Extended License Terms at any time. However, such modification or termination shall not affect the continued existence of Extension Packs already compliantly released prior to the termination of these Terms, provided their continued use complies with the terms in effect before termination.
+
+Article 5: Violation and Termination
+
+If the Licensee violates any provision of the Original Agreement or these Terms, all rights granted to the Licensee under these Terms and the Original Agreement regarding the creation and distribution of Extension Packs will automatically terminate. The Licensee is obligated to immediately cease the distribution and dissemination of the relevant Extension Pack upon becoming aware of the breach.
+
+
+本《扩展授权条款》（以下简称“本条款”）是对于采用“知识共享 署名-非商业性使用-禁止演绎 4.0 国际协议”（CC BY-NC-ND 4.0，以下简称“原协议”）发布的《Squareful》（以下简称“主资源包”）授权范围的补充与扩展。
+
+本条款的制定者为[您的姓名或组织名称]（以下简称“许可人”）。任何使用者（以下简称“被许可人”）在依据原协议使用主资源包的基础上，若希望行使本条款所授予的额外权利，则必须同时遵守原协议及本条款的全部规定。原协议与本条款内容冲突之处，以本条款为准。
+
+第一条 定义
+1. 扩展包：指依据本条款制作，包含对主资源包中部分或全部素材进行演绎创作内容，且不能独立于主资源包运行的新增资源文件集合。
+2. 演绎创作：在本条款中，特指且仅限于以下两种形式：
+    改色：使用许可人提供的原始纹理文件作为模板，仅对其颜色配置进行修改，而不改变其基本结构、像素布局与艺术风格核心特征。
+    风格模仿：在清晰识别并遵循主资源包整体艺术风格、设计语言及像素绘制技法的前提下，为原版游戏中主资源包未覆盖的内容（如新的物品、生物或方块）创作新的纹理。该等新创作的纹理必须在视觉效果上与主资源包保持高度协调一致。
+3. 独立使用：指将扩展包或其内容进行分离、提取、重新打包或以任何其他方式，使其能够在未同时安装并使用主资源包的情况下，于Minecraft游戏中或其他任何环境中正常使用、展示或发挥作用。
+
+第二条 授予的额外权利
+在严格遵守原协议（特别是关于署名、非商业性使用和禁止演绎的条款）及本条款所有条件的前提下，许可人授予被许可人一项全球性、免许可费、不可分许可、非独占的有限权利：
+
+被许可人可以基于主资源包的内容，进行本条款第一条所定义的“演绎创作”，并将由此产生的作品以“扩展包”的形式进行发布、分发或向公众提供。
+
+第三条 核心限制条件
+被许可人在行使第二条授予的权利时，必须同时满足以下所有条件：
+
+1. 依附性要求：扩展包必须被明确声明、设计且技术上实现为必须与主资源包一同使用。在任何情况下，扩展包都不得被制作、提供或解释为一个可以独立运行的资源包。
+2. 署名要求：
+    必须在扩展包的发布页面、描述文件、相关视频、图文介绍等任何公开场合，以显著方式标明：
+        主资源包的名称及链接。
+        原作者的署名（即许可人信息）。
+        明确声明本扩展包基于原协议及本条款发布。
+    在扩展包内，建议在文本文件（如credits.txt或README.txt）中重复上述署名信息。
+3. 非商业性要求：严格遵守原协议中关于“非商业性使用”的规定。任何扩展包的创作、分发与提供均不得以任何商业目的为前提或实质涉及商业活动。
+4. 禁止脱离性演绎：禁止对主资源包的内容进行超出第一条定义的“演绎创作”范围之外的修改，包括但不限于改变核心美术风格、将素材用于构建独立的新资源包、或将其与其他资源包混合以创建可独立使用的衍生作品。
+5. 质量与声誉：演绎创作的内容应保持一定的质量水准，不得损害主资源包及许可人的声誉。
+
+第四条 声明与保证
+1. 许可人按“现状”提供主资源包及本授权条款，不附带任何明示或暗示的保证。
+2. 被许可人理解并同意，许可人有权随时修改或终止本扩展授权条款。但该等修改或终止不影响在本条款终止前已合规发布的扩展包的持续存在，只要其持续使用符合终止前生效的条款规定。
+
+第五条 违反与终止
+若被许可人违反原协议或本条款的任何规定，则本条款及原协议授予被许可人的有关创作和分发扩展包的一切权利将自动终止。被许可人有义务在知悉违约后立即停止分发和传播相关扩展包。

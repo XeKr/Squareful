@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/tips/tips",
+    "textures": {
+        "layer0": "minecraft:item/tips/dolls"
+    }
+}

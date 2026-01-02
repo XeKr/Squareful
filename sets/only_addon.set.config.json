@@ -1,0 +1,9 @@
+{
+  "set_name": "全部附加",
+  "description": "启用全部额外附加（不包含模组兼容）",
+  "modules": [
+    "addon_fewer_3d_models",
+    "addon_glass_no_horizontal_line",
+    "addon_old_gui"
+  ]
+}

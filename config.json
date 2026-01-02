@@ -2,7 +2,7 @@
   "pack_name": "Squareful",
   "author": "XeKr",
   "description": "方纹资源包",
-  "version": "26.0.2",
+  "version": "26.0.3",
   "base_path": "./src",
   "sets_path": "./sets",
   "icon": "./icon.png",

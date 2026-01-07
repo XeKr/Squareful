@@ -3,8 +3,10 @@
   "description": "启用全部模块（包含额外附加和模组兼容）",
   "modules": [
     "addon_fewer_3d_models",
-    "addon_glass_no_horizontal_line",
+    "addon_flower_armor",
+    "addon_glass_horizontal_cullface",
     "addon_old_gui",
+    "addon_tiny_item_frame",
     "mods"
   ]
 }
